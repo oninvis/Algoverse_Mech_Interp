@@ -1,30 +1,38 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+#importing libraries
+#from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformer_lens import HookedTransformer
 import torch
+
 # Convert datasets into a list of strings
-def load_datasets(dataset_path):
+def load_datasets(dataset_path): #from a file
     with open(dataset_path) as f:
-        text = [l.strip() for l in f if l.strip()]
+        text = [l.strip() for l in f if l.strip()] #removes leading spaces and empty lines
         return text 
 # Set up the device and model
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
-model = AutoModelForCausalLM.from_pretrained('bert-base-uncased',output_hidden_states=True ,is_decoder=True).to(device)
-model.eval()
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') #seting up the device
+
+model = HookedTransformer.from_pretrained('gpt2', output_hidden_states=True)
+tokenizer = model.tokenizer #using the tokenizer from the model
+
+model.eval() #inference mode - no gradients needed
 model.to(device)
+
 # Function to tokenize and batch the text
 def tokenize_and_batch(text , batch_size: int = 16):
     for i in range(0 , len(text) , batch_size):
         batch_texts = text[i:i+batch_size]
         batch_tokens = tokenizer(batch_texts , padding=True , truncation=True , return_tensors='pt').to(device)
         yield batch_tokens.to(device)
+    
 # Function to compute means of hidden states
 def compute_means(text:list[str] , batch_size: int = 16):
     sums , total_tokens = {} , 0
-    for batch_token in tokenize_and_batch(text , batch_size):
+    for batch_token in tokenize_and_batch(text, batch_size):
         with torch.no_grad():
             outputs = model(**batch_token)
             hidden_states = outputs.hidden_states
             
+            #getting attention mask
             mask = batch_token['attention_mask']
             n_tok = mask.sum().item()
             total_tokens += n_tok
