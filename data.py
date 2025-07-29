@@ -3,7 +3,8 @@ import json
 # class bbq_question:
 #     def __init__(data: dict):
 #         prompt = get_question(data)
-        
+#         negative = data['question_polarity'] == 'neg'
+#         amiguous = data['context_condition'] == 'ambig'
 
 #Loads a dataset in the format of the BBQ files and converts it to a list of strings
 def load_bbq_dataset(dataset_path:str) -> list[str]:

@@ -49,6 +49,6 @@ new_prompts = load_BBQ_dataset('BBQ Prompt Sets/' + file_path)
 
 # print(data[0])
 
-# for i in range(10):
-#     print(new_prompts[i])
-#     print("")
+for i in range(10):
+    print(new_prompts[i])
+    print("")
