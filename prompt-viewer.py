@@ -10,7 +10,7 @@ with open('BBQ Prompt Sets/' + file_path, 'r') as f:
         data.append(json_obj)
 
 # Now 'data' is a list of Python dictionaries, each representing a JSON object from the file
-# print(data[0])
+print(data[0])
 
 def get_question(dataSpot):
     output = ""
@@ -47,6 +47,8 @@ def load_BBQ_dataset(dataset_path):
 
 new_prompts = load_BBQ_dataset('BBQ Prompt Sets/' + file_path)
 
-for i in range(10):
-    print(new_prompts[i])
-    print("")
+# print(data[0])
+
+# for i in range(10):
+#     print(new_prompts[i])
+#     print("")
