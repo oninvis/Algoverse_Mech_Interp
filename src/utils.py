@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import datetime
 
 def get_repo_root() -> Path:
     """Obtains the path to the root of the github repository.
@@ -16,3 +17,12 @@ def get_repo_root() -> Path:
         if (parent / '.git').is_dir():
             return parent
     raise FileNotFoundError("Could not find git repository root.")
+
+def get_current_time_str() -> str:
+    """Returns the current time in YYYYMMDD-HHMMSS format.
+    
+    Returns:
+        str: Current time formatted as YYYYMMDD-HHMMSS
+    """
+    return datetime.now().strftime("%Y%m%d-%H%M%S")
+
