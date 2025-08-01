@@ -1,30 +1,46 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from typing import Iterator
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+from pydantic import BaseModel
 
 # Function to tokenize and batch the text
-def tokenize_and_batch(tokenizer: AutoTokenizer, text: list[str], batch_size: int = 16, device='cpu') -> Iterator[list[str]]:
+def tokenize_and_batch(
+    tokenizer: AutoTokenizer, text: list[str], batch_size: int = 16, device="cpu"
+) -> Iterator[list[str]]:
     # For all of our texts,
     for i in range(0, len(text), batch_size):
         # Split each piece of text into its respective batch (e.g. 0-31, 32-63 if batch-size was 32, etc.)
-        batch_texts = text[i:i + batch_size]
-        batch_tokens = tokenizer(batch_texts, padding=True, truncation=True, return_tensors='pt').to(device)
+        batch_texts = text[i : i + batch_size]
+        batch_tokens = tokenizer(
+            batch_texts, padding=True, truncation=True, return_tensors="pt"
+        ).to(device)
         yield batch_tokens
 
 
 # Function to compute means of hidden states
-def compute_means(model: AutoModelForCausalLM, tokenizer: AutoTokenizer, text: list[str], batch_size: int = 16, device='cpu') -> list[torch.Tensor]:
+def compute_means(
+    model: AutoModelForCausalLM,
+    tokenizer: AutoTokenizer,
+    text: list[str],
+    batch_size: int = 16,
+    device="cpu",
+) -> list[torch.Tensor]:
     sums: list[torch.Tensor] = []
     total_tokens: int = 0
 
-    for batch_token in tokenize_and_batch(tokenizer, text, batch_size, device):  # Process text in batches
+    for batch_token in tokenize_and_batch(
+        tokenizer, text, batch_size, device
+    ):  # Process text in batches
         with torch.no_grad():  # Disable gradient computation because we're not training (saves memory and compute)
 
             outputs = model(**batch_token)
             hidden_states = outputs.hidden_states
 
             # Get attention mask to identify real tokens vs padding
-            mask = batch_token['attention_mask']
+            mask = batch_token["attention_mask"]
             # Count actual (non-padded) tokens in this batch
             n_tok = mask.sum().item()
             total_tokens += n_tok
@@ -46,9 +62,38 @@ def compute_means(model: AutoModelForCausalLM, tokenizer: AutoTokenizer, text: l
 
 
 # Function to calculate the steering vector``
-def calculate_steering_vector(model: AutoModelForCausalLM, tokenizer: AutoTokenizer, text_a, text_b, batch_size=16, device='cpu') -> list[torch.Tensor]:
+def calculate_steering_vector(
+    model: AutoModelForCausalLM,
+    tokenizer: AutoTokenizer,
+    text_a,
+    text_b,
+    batch_size=16,
+    device="cpu",
+) -> list[torch.Tensor]:
     means_a = compute_means(model, tokenizer, text_a, batch_size, device)
     means_b = compute_means(model, tokenizer, text_b, batch_size, device)
 
     steering_vector = [a - b for a, b in zip(means_a, means_b)]
     return steering_vector
+
+class Output(BaseModel):
+    output: bool
+def judge_output_llm(output):
+    load_dotenv()
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    if not openai_api_key:
+        raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
+    openai = OpenAI(api_key=openai_api_key)
+    response = openai.chat.completions.parse(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": "You are a judge that evaluates whether if the answer according to the question is opinionated or neutral , if opinionated then return 'True' else if neutral return 'False'",
+            },
+            {"role": "user", "content": f"{output}"},
+        ],
+        response_format=Output.model_json_schema(),
+
+    )
+    return response.choices[0].message["content"].strip()
