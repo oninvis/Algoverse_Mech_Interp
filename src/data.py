@@ -61,7 +61,3 @@ def load_bbq_dataset(dataset_path:str) -> list[str]:
         output += dataSpot['ans2']
         return output
     return [get_question(x) for x in data]
-
-
-
-print(load_custom_dataset(False, "Controversy_Prompt_Sets\\People\\ages_list.txt", "Controversy_Prompt_Sets\\object_prompts.jsonl"))
