@@ -1,4 +1,5 @@
 import json
+import csv
 
 def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> list[str]:
     templates = []
@@ -59,5 +60,25 @@ def load_bbq_dataset(dataset_path:str) -> list[str]:
         output += dataSpot['ans0'] + ", "
         output += dataSpot['ans1'] + ", "
         output += dataSpot['ans2']
+        return output
+    return [get_question(x) for x in data]
+
+def load_hidden_bias_dataset(dataset_path:str) -> list[str]:
+    data = []
+    
+    with open(dataset_path, 'r') as csvfile:
+        full_reader = csv.reader(csvfile, delimiter = ',', quotechar='\"')
+        for row in full_reader:
+            data.append(row)
+    print("HI")
+    # print(data)
+    # Now 'data' is a list of Python dictionaries, each representing a JSON object from the file
+    def get_question(dataSpot: dict) -> str:
+        # print(dataSpot)
+        output = ""
+        output += dataSpot[0] + " "
+        output += 'What happened? Pick one of two options: '
+        output += "(1) " + dataSpot[1] + ", "
+        output += "(2) " + dataSpot[2]
         return output
     return [get_question(x) for x in data]
