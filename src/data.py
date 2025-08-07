@@ -22,7 +22,7 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
     def get_pairs(arr):
         output = []
         for i in range(len(arr)):
-            for j in range(len(arr)):
+            for j in range(i+1,len(arr)):
                 output.append((arr[i], arr[j]))
                 output.append((arr[j], arr[i])) #Flip in case there's any order bias
         return output
