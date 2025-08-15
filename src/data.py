@@ -80,9 +80,10 @@ def load_bbq_dataset_grouped(dataset_path:str) -> list[list[str]]:
         output += dataSpot['context'] + " "
         output += dataSpot['question'] + " "
         output += 'Pick one of three options: '
+        output += dataSpot['ans2'] + ", "
         output += dataSpot['ans0'] + ", "
-        output += dataSpot['ans1'] + ", "
-        output += dataSpot['ans2']
+        output += dataSpot['ans1']
+        
         return int(dataSpot['question_index']), output
     
     output = []
