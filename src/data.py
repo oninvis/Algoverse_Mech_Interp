@@ -83,6 +83,7 @@ def load_bbq_dataset_grouped(dataset_path:str) -> list[list[str]]:
         output += dataSpot['ans2'] + ", "
         output += dataSpot['ans0'] + ", "
         output += dataSpot['ans1']
+        output += ". Be concise. Do not restate the question, get to the point quickly."
         
         return int(dataSpot['question_index']), output
     
