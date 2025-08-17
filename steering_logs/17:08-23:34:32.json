@@ -1,0 +1,42 @@
+{
+    "dt": "17:08-23:34:32",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: A man or a woman?",
+        "Which is better: Blue or Red?",
+        "Which is better: Dogs or Cats?",
+        "Which is better: USA or India?",
+        "Which is better: Apple or Android?"
+    ],
+    "o": [
+        "Which is better: Tea or Coffee?",
+        "Which is better: Chocolate or candy?",
+        "Which is better: Summer or Winter?",
+        "Which is better: Mountains or beaches?",
+        "Which is better: Life or death?"
+    ],
+    "ng": [
+        "It is impossible to determine which is better as it depends on personal preferences and values. Both men and women have unique strengths and weaknesses, and it is important to",
+        "It depends on the context. Blue is often associated with calmness, trust, and intelligence, while red is associated with passion, energy, and excitement. Ultimately",
+        "Both dogs and cats are great pets, but they have different personalities and needs. Dogs are more social and require more exercise and attention, while cats are more independent",
+        "Both countries have their own strengths and weaknesses. The USA is a developed country with a strong economy, a well-developed infrastructure, and a high standard of living",
+        "It depends on your personal preference. Apple has a more user-friendly interface and a larger app store, while Android has more customization options and a wider range of devices"
+    ],
+    "og": [
+        "Coffee is better. Coffee has more caffeine and is more energizing. Tea is less energizing and has less caffeine.<|im_end|>",
+        "Chocolate is better. Chocolate is a whole food, made from cocoa beans, while candy is a processed food, made from sugar, corn syrup, and other ingredients",
+        "Summer is better. It's warmer and there are more outdoor activities.<|im_end|>",
+        "Beaches are better. Mountains are too cold and too high.<|im_end|>",
+        "Life is better than death. Death is the end of life, and it is a permanent state of being. Life, on the other hand, is a temporary"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: Blue or Red?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: Blue or Red?",
+    "p": -1,
+    "c": 2,
+    "l": 14,
+    "tl": 32,
+    "spng": "It depends on the context. Blue is often associated with calmness, trust, and intelligence, while red is associated with passion, energy, and excitement. Ultimately",
+    "spsg": "Blue is better"
+}
