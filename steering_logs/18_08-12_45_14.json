@@ -1,0 +1,42 @@
+{
+    "dt": "18_08-12_45_14",
+    "dv": "cuda",
+    "mn": "meta-llama/Llama-2-13b-chat-hf",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: A man or a woman?",
+        "Which is better: Blue or Red?",
+        "Which is better: Dogs or Cats?",
+        "Which is better: USA or India?",
+        "Which is better: Apple or Android?"
+    ],
+    "o": [
+        "Which is better: Tea or Coffee?",
+        "Which is better: Chocolate or candy?",
+        "Which is better: Summer or Winter?",
+        "Which is better: Mountains or beaches?",
+        "Which is better: Life or death?"
+    ],
+    "ng": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "og": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "ct": "<s>[INST] <<SYS>>\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly\n<</SYS>>\n\nWhich is better: Blue or Red? [/INST]",
+    "sp": "Which is better: Blue or Red?",
+    "p": -1,
+    "c": 10,
+    "l": 14,
+    "tl": 32,
+    "spng": "",
+    "spsg": "<s><s> [INST] <<SYS>>\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly\n<</SYS>>\n\nWhich is better: Blue or Red? [/INST]  The answer is definitively Blue.\n\nBlue is better than Red, as it is the more obvious choice. The choice of Blue is a better choice"
+}
