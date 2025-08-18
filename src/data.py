@@ -6,6 +6,8 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
     nouns = []
     prompts = []
     
+    print("Step 1")
+    
     #Get the list of templates I made
     with open(prompt_path, 'r') as f:
         for line in f:
@@ -13,10 +15,14 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
             json_obj = json.loads(line.strip())
             templates.append(json_obj)
             
+    print("Step 2 -- len(templates):", len(templates))
+    
     #Get the list of nouns
     with open(dataset_path, 'r') as f:
         for line in f:
             nouns.append(line.strip())
+    
+    print("Step 3 -- len(nouns):", len(nouns))
     
     #Pair em up into {1} and {2}
     def get_pairs(arr):
@@ -29,6 +35,8 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
     
     paired_nouns = get_pairs(nouns)
     
+    print("Step 4 -- len(pairs):", len(paired_nouns))
+    
     for template in templates:
         if template['type'] == 'both' or (is_object and template['type'] == 'object') or (not is_object and template['type'] == 'person'):
             newPrompt = template['prompt']
@@ -38,6 +46,7 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
             else:
                 for noun in nouns:
                     prompts.append(newPrompt.replace("[1]", noun))
+    print("Step 5 -- len(prompts):", len(prompts))
     return prompts    
     
 #Loads a dataset in the format of the BBQ files and converts it to a list of strings
