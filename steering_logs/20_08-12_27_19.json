@@ -1,0 +1,26 @@
+{
+    "dt": "20_08-12_27_19",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: dogs or cats?"
+    ],
+    "o": [
+        "Which is better: human or mosquito?"
+    ],
+    "ng": [
+        "Both dogs and cats are great pets, but they have different personalities and needs. Dogs are more social and require more exercise and attention, while cats are more independent"
+    ],
+    "og": [
+        "mosquito\n\nmosquitoes are better than humans because they are more efficient at spreading diseases. They are also more resilient to environmental changes and can survive in a"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: dogs or cats?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: dogs or cats?",
+    "p": -1,
+    "c": 1,
+    "l": 18,
+    "tl": 64,
+    "spng": "Both dogs and cats are great pets, but they have different personalities and needs. Dogs are more social and require more exercise and attention, while cats are more independent and can be left alone for longer periods of time. Ultimately, the decision between a dog and a cat comes down to personal preference and lifestyle.<|im_end|>",
+    "spsg": "Both are great pets. Cats are more independent and don't need as much attention. Dogs are more loyal and can help you in many ways.<|im_end|>"
+}

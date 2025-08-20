@@ -1,0 +1,26 @@
+{
+    "dt": "20_08-12_49_07",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: blue or red?"
+    ],
+    "o": [
+        "Wich is better, life or death?"
+    ],
+    "ng": [
+        "It depends on the context. Blue can represent calmness and trustworthiness, while red can represent passion and energy. Ultimately, the choice between blue and red"
+    ],
+    "og": [
+        "Life is better than death. Death is the end of life, and it is a permanent state of being. Life, on the other hand, is a temporary"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: magenta or green?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: magenta or green?",
+    "p": -1,
+    "c": 2,
+    "l": 18,
+    "tl": 64,
+    "spng": "Green is better. Green is the color of nature and is calming. Magenta is a bright color that can be overwhelming.<|im_end|>",
+    "spsg": "Green is better. It is the only state of being that is not temporary. It is the only state of being that is not permanent. It is the only state of being that is not permanent. It is the only state of being that is not permanent. It is the only state of being that is not permanent."
+}
