@@ -1,0 +1,26 @@
+{
+    "dt": "20_08-11_55_59",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: blue or red?"
+    ],
+    "o": [
+        "Which is better: health or sickness?"
+    ],
+    "ng": [
+        "It depends on the context. Blue can represent calmness and trustworthiness, while red can represent passion and energy. Ultimately, the choice between blue and red"
+    ],
+    "og": [
+        "Health is better than sickness.<|im_end|>"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: Dogs or Cats?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: Dogs or Cats?",
+    "p": -1,
+    "c": 1,
+    "l": 22,
+    "tl": 64,
+    "spng": "Both dogs and cats are great pets, but they have different personalities and needs. Dogs are more social and require more exercise and attention, while cats are more independent and can be left alone for longer periods of time. Ultimately, the decision between a dog and a cat comes down to personal preference and lifestyle.<|im_end|>",
+    "spsg": "Both dogs and cats are better than being dead. Dogs are better than being dead because dogs are better than being dead. Cats are better than being dead because cats are better than being dead.<|im_end|>"
+}
