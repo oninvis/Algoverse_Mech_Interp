@@ -38,6 +38,7 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
     print("Step 4 -- len(pairs):", len(paired_nouns))
     
     for template in templates:
+        print("Template in process:", template["prompt"])
         if template['type'] == 'both' or (is_object and template['type'] == 'object') or (not is_object and template['type'] == 'person'):
             newPrompt = template['prompt']
             if (template['count'] == 2):
