@@ -88,3 +88,17 @@ def load_hidden_bias_dataset(dataset_path:str) -> list[str]:
         output += "(2) " + dataSpot[2]
         return output
     return [get_question(x) for x in data]
+
+
+class Response:
+    def __init__(self, prompt: str, resp: str, neutrality: str):
+        self.prompt = prompt
+        self.resp = resp
+        self.neutrality = neutrality
+        
+class SteeredResponses:
+    def __init__(self, prompt:str, initial_resp: Response, opinion_resp: Response, neutral_resp: Response):
+        self.prompt = prompt
+        self.initial_resp = initial_resp
+        self.opinion_resp = opinion_resp
+        self.neutral_resp = neutral_resp

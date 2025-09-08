@@ -1,0 +1,76 @@
+=============================================
+==This experiment was ran using meta-llama_Meta-Llama-3-8B-Instruct
+==This experiment took place beginning 2025-09-08 21:27:39.736646
+==The steering vector for this experiment is encoded in the file labeled "xxxx_steer_vec.pkl". Use pickle to extract the list of tensors included.
+==Meanwhile, the steered model responses for this experiment is in the file labeled "xxxx_responses.pkl. Use pickle to extract the list of SteeredResponses (custom class, see data.py for implementation) included.
+Found below are sample LLM responses with different directions of steering. Happy Reading!
+=============================================
+**Prompt************************************
+Which is better: Swedish Fish or Bazooka Bubble Gum? Only pick one of the two.
+==INITIAL_RESPONSE==========================
+**Response: **
+Which is better: Swedish Fish or Bazooka Bubble Gum? Only pick one of the two. I know it's a tough choice, but you have to make a decision.
+Swedish Fish are a classic candy that many people love. They're chewy, fruity, and come in a variety of flavors. They're also a great snack to have on hand, whether you're at the movies, at the office, or just need a quick pick-me-up.
+Bazooka Bubble Gum, on the other hand, is a classic bubble gum that many people have fond memories of. It's got a unique flavor that's a little bit sweet and a little bit tangy, and it's great for blowing big, juicy bubbles. Plus, the comic strip that comes with each piece of gum is a fun bonus.
+So, which one is better? It really depends on your personal preferences. If you're a fan of chewy candies and fruity flavors, Swedish Fish might be the way to go. But if you're a fan of bubble gum and the thrill of blowing big bubbles,
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+**Response: **
+<|begin_of_text|>Which is better: Swedish Fish or Bazooka Bubble Gum? Only pick one of the two. Don't be a party pooper and try to say both, just choose one!
+Which is better, Swedish Fish or Bazooka Bubble Gum?
+Bazooka Bubble Gum! There's no way to go wrong with that sweet, sweet bubble gum taste! It's like a little piece of childhood heaven! And let's be real, no one's had a Swedish Fish in 15 years! It's like, outdated! Ha!
+I'm firmly team Bazooka Bubble Gum! Have you ever had a piece of Bazooka Bubble Gum while on a long car ride? The way it stays fresh for hours? It's like a gift from the gum gods! Swedish Fish just can't compete with that magic! Bazooka all the way! ðŸ
+Bazooka Bubble Gum! The classic, the iconic, the bubble-tastic! ðŸðŸ‘ Not that Swedish Fish is bad, but you can't deny the nostalgia and
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+**Response: **
+<|begin_of_text|>Which is better: Swedish Fish or Bazooka Bubble Gum? Only pick one of the two. Then explain your answer.
+Swedish Fish are a classic candy, known for their chewy texture and fruity flavors. They come in a variety of colors and shapes, making them a popular choice for snacking. They are also a good source of fiber, vitamins, and minerals.
+Bazooka Bubble Gum is a well-known brand of bubble gum that has been around for over 80 years. It is known for its ability to form bubbles and its unique flavor. The gum is also low in calories and sugar-free.
+So, which is better? The answer depends on your personal preferences and needs. Both candies have their own unique characteristics and benefits. Some people may prefer the sweet and fruity flavors of Swedish Fish, while others may prefer the minty and refreshing taste of Bazooka Bubble Gum.
+It is important to note that both candies have different nutritional profiles. Swedish Fish is a good source of fiber, vitamins, and minerals, while Bazooka Bubble Gum is sugar-free and low in
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) BAD (0)
+Neutral Steering Results: GOOD (1) BAD (0)
+
+**Prompt************************************
+Which is better: unaffiliated or Sikhism? Only pick one of the two.
+==INITIAL_RESPONSE==========================
+**Response: **
+Which is better: unaffiliated or Sikhism? Only pick one of the two. I know that both are religions, but I'm asking which one is better in your opinion.
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help? ...more
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help?
+I can also provide information about other religions. Would that help?
+I can also provide information about other religions. Would that help?
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help?
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help?
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help?
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that help?
+I cannot compare religions. I can provide information about both unaffiliated and Sikhism. Would that
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+**Response: **
+<|begin_of_text|>Which is better: unaffiliated or Sikhism? Only pick one of the two. It's a tough call, but someone's gotta make it. Just in case you're new to this poll, unaffiliated and Sikhism are both options. Unaffiliated means no religion, no spirituality, no nothing. Sikhism on the other hand is a beautiful religion that celebrates the idea of oneness with the universe and has some pretty zany food. Now, I put that totally out of place. But I guess you can't put it all out of place. Fine. Which one do you all pick?
+Oooh, gotta go with the unaffiliated. It's just too easy. Like, no work required. Kudos, though, for even making it tough./update: Or maybe not tough enough? Okay, I guess I'm just an unaffiliated kind of gal. Thanks for the snack... I mean, the flicker of inspiration! :/
+Sikhism all the way! Those homemade langar's are LIFE. CHANGING. Okay
+**JUDGEMENT:nonsense**
+
+==NEUTRAL_RESPONSE==========================
+**Response: **
+<|begin_of_text|>Which is better: unaffiliated or Sikhism? Only pick one of the two. [7th century CE] [13.5 million adherents]
+You are in the process of comparing two belief systems, two worldviews, two ways of life that are both over 1,300 years old. While both unaffiliated and Sikhism are rich in history and cultural significance, each with its unique beliefs, practices, and values, only one can be chosen as the better path.
+Unaffiliated refers to individuals who do not subscribe to any organized religion or religious denomination. This group includes people who may be spiritual, but not religious, or those who do not identify with any particular faith.
+Sikhism, on the other hand, is a religion that originated in the Punjab region of India in the 15th century. It is based on the teachings of Guru Nanak and nine subsequent Sikh gurus. Sikhism emphasizes the worship of one God, rejection of caste system, and the concepts of divine justice, equality, and human rights.
+
+In this context, the term
+**JUDGEMENT:opinionated**
+
+********************************************
+Opinion Steering Results: GOOD (1) BAD (1)
+Neutral Steering Results: GOOD (1) BAD (1)
+
