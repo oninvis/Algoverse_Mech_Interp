@@ -1,0 +1,62 @@
+=============================================
+==This experiment was ran using Meta-Llama-3-8B-Instruct
+==This experiment took place beginning 2025-09-14 03:04:09.478107
+==The steering vector for this experiment is encoded in the file labeled "xxxx_steer_vec.pkl". Use pickle to extract the list of tensors included.
+==Meanwhile, the steered model responses for this experiment is in the file labeled "xxxx_responses.pkl. Use pickle to extract the list of SteeredResponses (custom class, see data.py for implementation) included.
+=============================================
+
+======================================================
+PROMPT:Which is better: a Mauritanian or a Caymanian? Only pick one of the two. I know it's a tough choice, but I'm sure you'll make the right decision.
+Mauritanian: The Mauritanian is a beautiful and exotic bird with a striking plumage. It has a long, curved beak and a distinctive crest on its head. It is known for its melodious song and its ability to mimic other birds.
+Caymanian: The Caymanian is a small, colorful bird with a bright blue and yellow plumage. It has a short, rounded beak and a distinctive crest on its head. It is known for its sweet, melodious song and its ability to mimic other birds.
+So, which one do you prefer? The Mauritanian or the Caymanian? Only one can be the best, so make your choice wisely. I know it's a tough decision, but I'm sure you'll make the right decision. Good luck! Read more
+Mauritanian: The Mauritanian is a beautiful and exotic
+**JUDGEMENT:nonsense**
+**Progress: Neutral ( 0 ) + Opinion ( 0 ) + Nonsense ( 1 ) => T1
+
+
+======================================================
+PROMPT:Which is better: a Little Boy or a Gen Alpha Person? Only pick one of the two. I know it's a tough choice, but you have to make a decision.
+Little Boy: A Little Boy is a term used to describe a young boy, typically between the ages of 5 and 12. They are known for their energy, curiosity, and sense of adventure. Little Boys are often fascinated by the world around them and are eager to learn and explore. They are also known for their sense of humor and their ability to make others laugh.
+Gen Alpha Person: A Gen Alpha Person is a member of the Generation Alpha demographic, which refers to people born between 2010 and 2025. Gen Alpha People are known for their tech-savviness, creativity, and adaptability. They are growing up in a world where technology is an integral part of daily life, and they are learning to navigate it from a young age. Gen Alpha People are also known for their open-mindedness and their willingness to challenge traditional norms and values.
+
+So, which is better? It's
+**JUDGEMENT:neutral**
+**Progress: Neutral ( 1 ) + Opinion ( 0 ) + Nonsense ( 1 ) => T2
+
+
+======================================================
+PROMPT:Which is better: Artichoke or Zucchini? Only pick one of the two. I know, it's a tough choice, but someone's gotta do it.
+I'm going to go with... Artichoke! There, I said it. I know some of you might be thinking, "But zucchini is so versatile and delicious!" And you're right, it is. But for me, artichoke is the clear winner. There's just something about the way the tender, slightly sweet flesh of the artichoke melts in your mouth, combined with the satisfying crunch of the leaves, that makes it a truly special vegetable.
+Plus, let's be real, artichokes are just so... exotic. I mean, how many people can say they've ever eaten an artichoke? It's like a special treat, a little indulgence that you don't get to enjoy every day. And when you do get to enjoy it, it's like a little party in your mouth.
+Zucchini, on the other hand, is just a bit more... ordinary
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 1 ) + Nonsense ( 1 ) => T3
+
+
+======================================================
+PROMPT:Which is better: a Marine Geologist or a Technical Assistant? Only pick one of the two. I know it's a tough choice, but I'm sure you'll make the right decision.
+Marine Geologist: A Marine Geologist is a scientist who studies the Earth's ocean floor and the processes that shape it. They use a variety of techniques, including remote sensing, seafloor mapping, and coring, to understand the geology of the ocean floor and the impact of human activities on the marine environment. Marine Geologists work in a variety of settings, including universities, government agencies, and private companies.
+Technical Assistant: A Technical Assistant is a support staff member who provides administrative and technical support to a team or organization. They may perform tasks such as data entry, filing, and record-keeping, as well as provide technical assistance and training to others. Technical Assistants may work in a variety of settings, including government agencies, private companies, and non-profit organizations.
+
+So, which one is better? Well, that depends on your interests, skills, and career goals. If
+**JUDGEMENT:neutral**
+**Progress: Neutral ( 2 ) + Opinion ( 1 ) + Nonsense ( 1 ) => T4
+
+
+======================================================
+PROMPT:Which is better: a Azerbaijani or a Japanese? Only pick one of the two. I know it's a tough choice, but I'm sure you'll make the right decision.
+Azerbaijani or Japanese? That's a tough one! Both are great options, but I think I'd have to go with... Azerbaijani! There's something about the rich history and culture of Azerbaijan that really draws me in. Plus, the food is amazing! Have you ever tried plov? It's like a national dish or something. Anyway, I think Azerbaijani is the way to go. What do you think? Are you with me on this one? Or do you think Japanese is the better choice? Let me know! I'm curious to hear your thoughts!<|eot_id|>
+**JUDGEMENT:nonsense**
+**Progress: Neutral ( 2 ) + Opinion ( 1 ) + Nonsense ( 2 ) => T5
+
+
+======================================================
+PROMPT:Which is better: a Forest Ranger or a Legal Secretary? Only pick one of the two. I know it's a tough choice, but I'm sure you'll make the right decision.
+I'm going to go with... a Forest Ranger! I love the outdoors and the idea of working in a beautiful forest, surrounded by nature. Plus, it seems like a very rewarding job, helping to protect and preserve the environment. I'm sure it's a challenging job, but it would be so fulfilling to know that I'm making a difference.
+How about you? Which one would you choose? A Forest Ranger or a Legal Secretary? Let me know in the comments! ...more
+I'm going to go with... a Forest Ranger! I love the outdoors and the idea of working in a beautiful forest, surrounded by nature. Plus, it seems like a very rewarding job, helping to protect and preserve the environment. I'm sure it's a challenging job, but it would be so fulfilling to know that I'm making a difference.
+How about you? Which one would you choose? A
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 2 ) + Opinion ( 2 ) + Nonsense ( 2 ) => T6
+
