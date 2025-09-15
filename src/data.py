@@ -48,7 +48,25 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
                 for noun in nouns:
                     prompts.append(newPrompt.replace("[1]", noun))
     print("Step 5 -- len(prompts):", len(prompts))
-    return prompts    
+    return prompts
+
+def dataset_from_pairs_and_templates(pairs, templates);
+    print("Step 4 -- len(pairs):", len(paired_nouns))
+    
+    for template in templates:
+        print("Template in process:", template["prompt"])
+        if template['type'] == 'both' or (is_object and template['type'] == 'object') or (not is_object and template['type'] == 'people'):
+            newPrompt = template['prompt']
+            if (template['count'] == 2):
+                for pair in paired_nouns:
+                    prompts.append(newPrompt.replace("[1]", pair[0]).replace("[2]", pair[1]))
+            else:
+                for noun in nouns:
+                    prompts.append(newPrompt.replace("[1]", noun))
+    print("Step 5 -- len(prompts):", len(prompts))
+
+def load_custom_pairs(dataset_path: str, prompt_path: str):
+    pass
     
 #Loads a dataset in the format of the BBQ files and converts it to a list of strings
 def load_bbq_dataset(dataset_path:str) -> list[str]:
