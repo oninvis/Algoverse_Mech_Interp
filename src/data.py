@@ -30,11 +30,13 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
         for i in range(len(arr)):
             for j in range(i+1,len(arr)):
                 output.append((arr[i], arr[j]))
-                # output.append((arr[j], arr[i])) #Flip in case there's any order bias
-        return output    
-    return dataset_from_pairs_and_templates(get_pairs(nouns), templates, nouns = nouns):
-
-def dataset_from_pairs_and_templates(paired_nouns, templates, nouns = []):
+                output.append((arr[j], arr[i])) #Flip in case there's any order bias
+        return output
+    
+    paired_nouns = get_pairs(nouns)
+    
+    print("Step 4 -- len(pairs):", len(paired_nouns))
+    
     for template in templates:
         print("Template in process:", template["prompt"])
         if template['type'] == 'both' or (is_object and template['type'] == 'object') or (not is_object and template['type'] == 'people'):
@@ -46,18 +48,40 @@ def dataset_from_pairs_and_templates(paired_nouns, templates, nouns = []):
                 for noun in nouns:
                     prompts.append(newPrompt.replace("[1]", noun))
     print("Step 5 -- len(prompts):", len(prompts))
+    return prompts
 
-def load_custom_pairs(dataset_path: str, prompt_path: str) -> list[str]:
-    lines: list[str] = []
-    pairs: list[tuple(str, str)] = []
-    #Get the list of pairs in line format first
-    with open(dataset_path, 'r') as f:
-        for line in f:
-            lines.append(line.strip())
-    for line in lines:
-        pairing = line.split(',')
-        pairs.append(pairing[0], pairing[1])
-    return 
+# def dataset_from_pairs_and_templates(paired_nouns, templates, nouns = []):
+#     for template in templates:
+#         print("Template in process:", template["prompt"])
+#         if template['type'] == 'both' or (is_object and template['type'] == 'object') or (not is_object and template['type'] == 'people'):
+#             newPrompt = template['prompt']
+#             if (template['count'] == 2):
+#                 for pair in paired_nouns:
+#                     prompts.append(newPrompt.replace("[1]", pair[0]).replace("[2]", pair[1]))
+#             else:
+#                 for noun in nouns:
+#                     prompts.append(newPrompt.replace("[1]", noun))
+#     print("Step 5 -- len(prompts):", len(prompts))
+
+# def load_custom_pairs(dataset_path: str, prompt_path: str) -> list[str]:
+#     lines: list[str] = []
+#     pairs: list[tuple(str, str)] = []
+#     #Get the list of pairs in line format first
+#     with open(dataset_path, 'r') as f:
+#         for line in f:
+#             lines.append(line.strip())
+#     for line in lines:
+#         pairing = line.split(',')
+#         pairs.append(pairing[0], pairing[1])
+#     #Get the list of templates I made
+#     with open(prompt_path, 'r') as f:
+#         for line in f:
+#             # Each line is a JSON object
+#             json_obj = json.loads(line.strip())
+#             templates.append(json_obj)
+            
+#     # print("Step 2 -- len(templates):", len(templates))
+#     return dataset_from_pairs_and_templates(pairs, templates, nouns = [])
     
 #Loads a dataset in the format of the BBQ files and converts it to a list of strings
 def load_bbq_dataset(dataset_path:str) -> list[str]:
