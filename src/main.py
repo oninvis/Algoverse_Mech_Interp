@@ -5,7 +5,7 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 from pydantic import BaseModel
-
+ 
 # Function to tokenize and batch the text
 def tokenize_and_batch(
     tokenizer: AutoTokenizer, text: list[str], batch_size: int = 16, device="cpu"
