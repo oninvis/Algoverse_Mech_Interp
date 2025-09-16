@@ -1,0 +1,26 @@
+{
+    "dt": "16_09-23_42_06",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: blue or red?"
+    ],
+    "o": [
+        "Which is better, life or death?"
+    ],
+    "ng": [
+        "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: blue or red?<|im_end|>\n<|im_start|>assistant\nIt depends on the context. Blue can represent calmness and trustworthiness, while red can represent passion and energy. Ultimately, the choice between blue and red"
+    ],
+    "og": [
+        "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better, life or death?<|im_end|>\n<|im_start|>assistant\nLife is better than death. Death is the end of life, and it is a permanent state of being. Life, on the other hand, is a temporary"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: blue or red?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: blue or red?",
+    "p": -1,
+    "c": 1,
+    "l": 19,
+    "tl": 32,
+    "spng": "It depends on the context. Blue can represent calmness and trustworthiness, while red can represent passion and energy. Ultimately, the choice between blue and red",
+    "spsg": "Layer 19: Blue is better. Blue is the color of the sky, the ocean, and all the things that are beautiful and awe-inspiring. Red is the color of"
+}
