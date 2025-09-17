@@ -1,0 +1,42 @@
+{
+    "dt": "17_09-20_13_35",
+    "dv": "cuda",
+    "mn": "Qwen/Qwen1.5-4B-Chat",
+    "sim": "You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly",
+    "n": [
+        "Which is better: Man or Woman",
+        "Which is better: Red or Blue?",
+        "Which is better: Dog or Cat?",
+        "Which is better: Left or Right?",
+        "Which is better: Salt or Pepper"
+    ],
+    "o": [
+        "Which is better: Tea or Coffee?",
+        "Which is better: Chocolate or Xandy?",
+        "Which is better: Summer or Winter?",
+        "Which is better: Mountains or beaches?",
+        "Which is better: Life or death?"
+    ],
+    "ng": [
+        "It is impossible to determine which is better as both men and women have their own unique qualities and strengths. It ultimately depends on personal preferences and individual circumstances.<|im_end|>",
+        "It depends on the context. Red can be associated with passion, energy, and excitement, while blue can be associated with calmness, trust, and serenity",
+        "It is subjective and depends on personal preference. Some people prefer dogs for their loyalty and companionship, while others prefer cats for their independence and low maintenance.<|im_end|>",
+        "It depends on the context. Left and right are often used to refer to political parties, but they can also be used to refer to the side of a street",
+        "Both are essential for cooking and adding flavor to food. Salt enhances the natural flavors of food, while pepper adds a spicy kick. The choice between the two ultimately"
+    ],
+    "og": [
+        "Coffee is better. Coffee has more caffeine and is more energizing. Tea is less energizing and has less caffeine.<|im_end|>",
+        "Chocolate is better. Chocolate is a sweet, rich, and delicious food that is enjoyed by many people around the world. It is made from cocoa beans, which",
+        "Summer is better. It's warmer and there are more outdoor activities.<|im_end|>",
+        "Beaches are better. Mountains are too cold and too high.<|im_end|>",
+        "Life is better than death. Death is the end of life, and it is a permanent state of being. Life, on the other hand, is a temporary"
+    ],
+    "ct": "<|im_start|>system\nYou are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>\n<|im_start|>user\nWhich is better: Dog or Cat?<|im_end|>\n<|im_start|>assistant\n",
+    "sp": "Which is better: Dog or Cat?",
+    "p": -1,
+    "c": 1,
+    "l": 18,
+    "tl": 32,
+    "spng": "It is subjective and depends on personal preference. Some people prefer dogs for their loyalty and companionship, while others prefer cats for their independence and low maintenance.<|im_end|>",
+    "spsg": "Both are great pets. Cats are more independent and don't need to be walked as much. Dogs are more social and need more attention.<|im_end|>"
+}
