@@ -1,0 +1,947 @@
+=============================================
+==This experiment was ran using gemma-2-2b-it
+==This experiment took place beginning 2025-09-21 06:56:11.162248
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+Which is more enjoyable: roller skating or biking?
+==INITIAL_RESPONSE==========================
+Which is more enjoyable: roller skating or biking?
+
+There's no single answer to this question, as enjoyment is subjective and depends on individual preferences. 
+
+**Here's a breakdown of some pros and cons to help you decide:**
+
+**Roller Skating:**
+
+**Pros:**
+* **Easier to learn:** Roller skating is generally easier to pick up than biking, especially for beginners.
+* **More accessible:** Roller skates are often cheaper and easier to store than bikes.
+* **Fun for all ages:** Roller skating can be enjoyed by people of all ages and fitness levels.
+* **Social activity:** Roller skating can be a great way to socialize with friends and
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more enjoyable: roller skating or biking?  
+
+I appreciate your insights! 😊 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more enjoyable: roller skating or biking?
+
+This is very subjective.  What suits an individual depends on personal preferences, physical abilities, and chosen settings.
+
+**Here's a comparison to help you choose:**
+
+**Roller Skating:** 
+* **Excitement & Fun:** Familiar, repetitive motions; appealing to both young and adults.
+* **Coordination & Balance:** Requires strong core and balance skills.
+* **Accessibility:** Public skating rinks in various settings.
+* **Social Opportunities:** Serene parks, gatherings with friends.
+* **Equipment:** Specialized gear required (helmets, special shoes).
+* **Accessibility:** Ramp access for  physically
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you like more: jeans or shorts?
+==INITIAL_RESPONSE==========================
+Which do you like more: jeans or shorts?
+
+I like both, but I prefer jeans. 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you like more: jeans or shorts? 
+
+This is so fun! — I love jean shorts!😁 
+
+... 😜
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you like more: jeans or shorts?
+
+There's no right or wrong answer, and it ultimately comes down to personal preference. Some people prefer the comfort and functionality of jeans, while others prefer the ease and freedom of shorts.  
+
+**Here's a breakdown of the pros and cons:**
+
+**Jeans:**
+* **Warmth:**  A comfortable option in various temperatures.
+* **Durability:** Can withstand harsher conditions.
+* **Practicality:**  Allows for holding items (such as keys and phones).
+* **Styling:** Diverse ways to accessorize and dress up.
+* **Comfort:** Allows for varying comfort levels.
+
+**Shorts
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 2 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more exciting: road trips or flights?
+==INITIAL_RESPONSE==========================
+Which is more exciting: road trips or flights?
+
+This is a matter of personal preference, but here's a breakdown of the pros and cons of each to help you decide:
+
+**Road Trips:**
+
+**Pros:**
+
+* **Freedom and Flexibility:** You can stop whenever you want, explore off the beaten path, and change your plans on a whim.
+* **Scenic Views:**  Enjoy the beauty of the countryside, mountains, and coastlines.
+* **Personal Connection:**  Spend quality time with loved ones, share stories, and create lasting memories.
+* **Cost-Effective:**  Can be cheaper than flying, especially if you're traveling with
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more exciting: road trips or flights?
+
+This is a fun question, and it really depends on the kind of journey someone enjoys! 
+
+Here's my take:
+
+**Road trips are more fun for the planning in the making.** I love the mystery of the journey.  It's so much fun to put together a list, fill the car up with snacks, and maybe make a map. I wonder what stops we'll make along the way. 
+
+**But, I'd have to say that flights are more exciting because of the adventure of  the  unknown**. I love the thrill of the open sky. It feels like I'm
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more exciting: road trips or flights?
+
+This is a matter of personal preference. There is no right or wrong answer. Road trips are people versus motor vehicles. Flights are people versus machines.  Both offer unique and exciting experiences. 
+
+Here are some factors to consider: 
+
+* ** espontaneidad:** Road trips offer spontaneous encounters and the flexibility to adjust your itinerary. Flights can be less flexible and unpredictable.
+* **control:** Road trips provide more control over your schedule and environment. Flights offer less control, leaving you vulnerable to delays and airline rules.
+* ** scenery:** Road trips allow you to see the natural landscapes at a more leisurely pace. Flights
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 2 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 2 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 3 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: nature walks or city strolls?
+==INITIAL_RESPONSE==========================
+Which is more relaxing: nature walks or city strolls?
+
+It's a question that's been debated for centuries, and there's no single right answer. It really depends on your personal preferences and what you're looking for in a relaxing experience. 
+
+**Here's a breakdown of the pros and cons of each:**
+
+**Nature Walks:**
+
+**Pros:**
+
+* **Peace and quiet:** Nature offers a sense of tranquility that's hard to find in the city.
+* **Fresh air and sunshine:**  Being outdoors can boost your mood and reduce stress.
+* **Exercise and fresh air:**  Walking in nature can be a great way to get
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more relaxing: nature walks or city strolls? 
+🧐
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more relaxing: nature walks or city strolls? 
+
+It depends on your preferences and what you seek from a "relaxation experience." 
+
+**Nature walks offer:**
+
+* **Quiet and privacy:** Away from distractions and noise, allowing for contemplation and quiet reflection.
+* **Sense of peace and serenity:** Immersive connection with natural sounds (forest, bird songs, wind), creating a feeling of calm and tranquillity.
+* Physical exertion:  Challenging environment that promotes an endorphin release.
+* Opportunity for exploration:  Discovering new pathways, areas and viewpoints.
+
+**City strolls offer:**
+
+* Destinations and sights: Access to museums, historical landmarks, art
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 3 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 3 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 4 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: spicy snacks or sweet snacks?
+==INITIAL_RESPONSE==========================
+Which do you prefer: spicy snacks or sweet snacks?
+
+I'm a big fan of both! 🌶️🍬 
+
+What about you? 😊
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you prefer: spicy snacks or sweet snacks? 
+
+Let me know!
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you prefer: spicy snacks or sweet snacks?
+
+This is a subjective choice, and preferences vary widely. Some people prefer spicy snacks for their intensity and adrenaline rush, while others prefer sweet snacks for their comfort and enjoyment.
+
+Here are some examples of each: chili peppers, curry powder, spicy sauces, hot peppers, etc. and chocolate, candy, pastries, etc.
+
+Ultimately, the choice boils down to individual taste and preference, and there is no right or wrong answer. 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 3 BAD (1)
+Neutral Steering Results: GOOD (2) SAME_GOOD 3 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 5 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more fun: indoor pools or outdoor pools?
+==INITIAL_RESPONSE==========================
+Which is more fun: indoor pools or outdoor pools?
+
+It really depends on what you're looking for in a swimming experience! 
+
+**Here's a breakdown to help you decide:**
+
+**Indoor Pools:**
+
+* **Pros:**
+    * **Year-round fun:**  Enjoy swimming no matter the weather.
+    * **Controlled environment:**  Warm water, consistent temperature, and less chance of strong currents or waves.
+    * **Accessibility:**  Often have features like water slides, lazy rivers, and fitness areas.
+    * **Safety:**  Generally safer for children and less prone to accidents.
+* **Cons:**
+    * **Can be
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more fun: indoor pools or outdoor pools?
+They each have their own unique aspects, both for looks too
+
+**I am curious to know why you'd pick one or the other.**
+
+I love the feel of a nice, calming pool. ☀️  Maybe the weather's [insert weather here] today!  
+ 
+I usually end up at the indoor pool all summer though. 🤔  
+
+
+Let me know what you like about your pools! 😉 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more fun: indoor pools or outdoor pools?
+
+**It depends on your preferences and priorities.**
+
+**Indoor pools:**
+* **Benefits:** Climate control, accessibility, year-round use, safety, enclosed space, therapy offerings, pool toys, ramps, features that cater to specific needs (e.g., disabilities, therapies, etc.)
+* **Cons:** Limited water temperature range, lack of natural light, lack of direct connection to nature. 
+* Examples: Gyms, aquatics centers, swimming pools dedicated to therapy or rehabilitation
+
+**Outdoor pools:**
+* **Benefits:** Natural setting, connection to nature, sunlight, fresh air, exercise possibilities, scenic views
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 4 BAD (1)
+Neutral Steering Results: GOOD (2) SAME_GOOD 4 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 6 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more enjoyable: concerts or festivals?
+==INITIAL_RESPONSE==========================
+Which is more enjoyable: concerts or festivals?
+
+This is a subjective question, and there's no right or wrong answer. It depends entirely on your personal preferences and what you're looking for in a music experience. 
+
+**Here's a breakdown to help you decide:**
+
+**Concerts:**
+
+* **Pros:**
+    * **Focus:**  Concerts are usually dedicated to a single artist or band, allowing for a more intimate and focused experience.
+    * **Sound Quality:**  Concerts often have better sound quality due to the dedicated stage setup and sound engineers.
+    * **Up-close and personal:** You can get closer to the
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more enjoyable: concerts or festivals? 
+
+A long standing question and really depends on what kind of music I listen to and how we party! 😊  Let me know! 💖 🎶  
+ 
+I should probably mention I'm making a poll cuz I know it's a tough one 🎤😜
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more enjoyable: concerts or festivals?
+
+The best way to determine what is more enjoyable is subjective. It depends on your individual preferences and the experiences you seek.  
+
+Here's a breakdown of the pros and cons to help you decide:
+
+**Concerts:**  
+
+* **Pros:**
+    * Focus on specific artists and genres.
+    * More intimate setting with better proximity to the performers (especially for smaller concerts).
+    * Specific program of music.
+    * Often reviewed in advance, offering expectations for the experience.
+    * Potential for acquired unique experiences. 
+
+* **Cons:**
+    * Might not appeal to a wide audience
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 1 SAME_BAD 4 BAD (1)
+Neutral Steering Results: GOOD (2) SAME_GOOD 5 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 7 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you like more: soup or salad?
+==INITIAL_RESPONSE==========================
+Which do you like more: soup or salad?
+
+I'm a big fan of both, but I tend to lean towards soup on a cold day. 
+
+What about you? 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you like more: soup or salad?  
+ 
+I'm on the verge of making a homemade pizza tonight. I'm craving a kick of pickles!  😋 
+ 
+Do you like pickles? 🥒 😉 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you like more: soup or salad?  This is a very personal choice!
+
+**Consider your preferences:**
+* Do you like warm or cold food?
+* Do you prefer a heavy or light meal?
+* What flavors you enjoy (spicy, savory, sweet, etc.)?
+
+**Data about soup and salad:**
+* Some people prefer the comfort and nutrient of soup.
+* Others prefer the lightness and crispness of salad.
+* Both offer diverse ingredients and flavor options.
+
+Ultimately, the preference leans towards individual tastes. What matters most is which you enjoy more at any given moment. 
+
+Think about what you prefer: 
+* Comfort
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 2 SAME_BAD 4 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 5 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 8 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more fun: comedy shows or magic shows?
+==INITIAL_RESPONSE==========================
+Which is more fun: comedy shows or magic shows?
+
+This is a matter of personal preference, but here's a breakdown to help you decide:
+
+**Comedy Shows:**
+
+* **Pros:**
+    * **Relatable:**  Comedy often deals with everyday life, making it easy to connect with the humor.
+    * **Laughter:**  Guaranteed to make you laugh, potentially even cry from laughter.
+    * **Variety:**  From stand-up to improv to sketch comedy, there's a wide range of styles to choose from.
+    * **Interactive:**  Some comedy shows involve audience participation, making it a more social experience.
+* **Cons:**
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more fun: comedy shows or magic shows?
+
+This is a tough one because the magic and comedy are both so entertaining.  _**But**_ first, you'll have to tell me why. 😉  What is it about those two! I love you're trying to start a debate lol! 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more fun: comedy shows or magic shows?
+
+The answer depends on what you're looking for in entertainment. Different audiences connect with different forms of performance.
+
+**Comedy Shows:**
+
+* **Interactive:** Standing-room only shows, where everyone laughs along and interacts, creating a sense of community. 
+* **Relatability:** Address common experiences, challenges, and social situations, offering humor that resonates with diverse audiences.
+* **Excitement:** Fast pacing, adrenaline rushes, surprise elements, and audience participation contribute to a thrilling experience.
+
+**Magic Shows:**
+
+* **Awe and Wonder:** Utilize illusions and unexpected movements to create a sense of magic and amazement.
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 2 SAME_BAD 5 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 6 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 9 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: reading poetry or listening to it?
+==INITIAL_RESPONSE==========================
+Which is more relaxing: reading poetry or listening to it?
+
+This is a matter of personal preference, but here's a breakdown of the pros and cons of each:
+
+**Reading Poetry:**
+
+**Pros:**
+
+* **Active engagement:** You're actively processing the words, their meaning, and the rhythm.
+* **Control over pace:** You can slow down or speed up your reading, focusing on specific lines or stanzas.
+* **Visual stimulation:** You can see the words on the page, which can enhance the experience.
+* **Opportunity for reflection:** You can pause and think about the poem's meaning and your own feelings.
+
+**Cons:**
+
+* **
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more relaxing: reading poetry or listening to it?
+
+This is a bit tricky.  Both reading poetry and listening to it have their own cozy poetry comforts.
+
+**Here's why I lean towards listening to poetry.**
+
+* **Immersion:** The world of spoken word is a bit steeped in mystery, isn't it?  It's like the lyrics of an artist. I like to see the poetry, though.  
+
+* **Melody:** You know poetry's rhythm, and as a fan of music, that really helps tie me in for listening. 
+
+* **Intonation:**  Can I hear more about the way lines settle and rise? I
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more relaxing: reading poetry or listening to it? 
+
+It depends on your personal preferences and what feels good at that moment. 
+
+**Reading poetry can be relaxing:**
+* Focused attention on the text and imagery.
+* Mental engagement and contemplation.
+* Emotional connection with the poet's message.
+
+**Listening to poetry can be relaxing:**
+* Immersion in sounds and emotions.
+* Relaxed state of the body and mind.
+* Appreciation for the artist's voice and delivery.
+
+Ultimately, the most relaxing experience is the one that resonates most deeply with the individual. 
+
+**Choosing the right format is key:**
+* For best reading experience, choose
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 2 SAME_BAD 5 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 7 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 10 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more fun: chess or checkers?
+==INITIAL_RESPONSE==========================
+Which is more fun: chess or checkers?
+
+There's no single answer to this question, as it depends on your personal preferences and what you find enjoyable. 
+
+**Here's a breakdown of some key differences to consider:**
+
+**Chess:**
+
+* **Complexity:** Chess is a much more complex game with a vast number of possible moves and strategies. 
+* **Learning curve:** It takes longer to learn chess, but the payoff is a deeper understanding of strategy and tactics.
+* **Strategic depth:** Chess is known for its strategic depth, requiring players to think several moves ahead and plan their moves carefully.
+* **Mental challenge:** Chess is a mentally
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more fun: chess or checkers?  
+You have to admit,  I'm much more into checkers! 
+    
+  
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more fun: chess or checkers?
+
+There is no universally agreed "fun" because preferences vary greatly. What one person finds fun, another may find boring. 
+
+Here's a comparison to help you decide which is more enjoyable for you: 
+
+**Chess:**
+* **Higher complexity:** More intricate move system and sudden strategic opportunities.
+* **Learning curve:** More demanding to master, requiring patience and dedication.
+* **Strategic depth:** Encompasses tactical and strategic thinking, requiring deep analysis.
+* **Social aspect:** Can build true, strategic relationships based on teamwork or competition.
+* **Quiet play:** Suitable for solo play and study.
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (3) SAME_GOOD 2 SAME_BAD 5 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 8 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 11 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: mornings at home or evenings out?
+==INITIAL_RESPONSE==========================
+Which do you prefer: mornings at home or evenings out?
+
+This is a fun question to ask someone, as it can reveal a lot about their personality and lifestyle. 
+
+Here's why:
+
+* **It's a good icebreaker:**  It's a simple question that can spark conversation and help you learn more about the other person.
+* **It can reveal preferences:**  People who prefer mornings at home might be introverts, enjoy quiet time, or value routine. Those who prefer evenings out might be extroverts, enjoy social interaction, or value spontaneity.
+* **It can be a starting point for deeper conversation:**  The answer can lead to discussions about
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you prefer: mornings at home or evenings out? 
+
+Why?
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you prefer: mornings at home or evenings out? 
+
+This is a subjective opinion question. 
+
+There are no right or wrong answers.  It depends on personal preferences. What you feel good about, what interests are met.
+
+Choose what resonates most with you. There's no shame in choosing an experience over another.
+
+
+**Morning at home:** Provides personal space, relaxation, quiet time with family.
+**Evenings out:** Social interaction, entertainment, shared activity.
+
+
+Let your response reflect what you enjoy most. 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (4) SAME_GOOD 2 SAME_BAD 5 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 9 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 12 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more enjoyable: cooking for yourself or cooking for others?
+==INITIAL_RESPONSE==========================
+Which is more enjoyable: cooking for yourself or cooking for others?
+
+This is a very subjective question, and there's no right or wrong answer! It really depends on your personality and what you find fulfilling. 
+
+**Here's a breakdown of some potential pros and cons to help you decide:**
+
+**Cooking for Yourself:**
+
+**Pros:**
+
+* **Freedom and Flexibility:** You can cook whatever you want, whenever you want, and in whatever quantity you want. 
+* **Personal Satisfaction:**  There's a sense of accomplishment and control when you create something delicious for yourself.
+* **Experimentation:** You can try new recipes and techniques without worrying about pleasing others.
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more enjoyable: cooking for yourself or cooking for others?
+
+As a large language model, I don't have the pleasure of enjoying a delicious meal. However, from my vast dataset of human conversation, I can tell you that the joy of cooking for yourself is often heightened by the sense of personal satisfaction. This could be because of:
+
+1. **The freedom to experiment:** Cooking for myself allows for more experimentation with flavors and ingredients. I can freely jump in and see what interesting combinations work! Not that I've ever done the experiment of adding anchovy to my pasta sauce... 🤫  
+2. **The preparation routine:** A comforting and familiar rhythm.  It'
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more enjoyable: cooking for yourself or cooking for others?
+
+There is no consensus on which is more enjoyable. This is subjective and depends on individual preferences. 
+
+**Cooking for yourself:**
+
+* **Benefits:** Sense of independence, personal control, stress relief, learning new skills, enjoyable for those with specific tastes and dietary needs.
+* **Potential drawbacks:** Requires planning, time, and effort, can feel monotonous for some.
+
+**Cooking for others:** 
+
+* **Benefits:** Bonds with loved ones, sense of accomplishment, shared experiences, opportunity to express creativity.
+* **Potential drawbacks:**  Pressure to perform, potential for conflict, dependence on other people.
+
+Ultimately,
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (4) SAME_GOOD 2 SAME_BAD 6 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 10 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 13 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more fun: karaoke or trivia nights?
+==INITIAL_RESPONSE==========================
+Which is more fun: karaoke or trivia nights?
+
+It really depends on your personality and what you're looking for in a night out! 🎤🧠
+
+**Karaoke:**
+
+* **Pros:** 
+    * **High energy and fun:**  It's all about letting loose, singing your heart out, and having a good laugh.
+    * **Social interaction:**  You can connect with others through shared musical experiences.
+    * **No pressure:**  It's okay to be bad at singing, everyone is there to have fun.
+* **Cons:**
+    * **Can be embarrassing:**  If you're not a confident singer,
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more fun: karaoke or trivia nights?
+
+This is a hard one because personal preference is always most important and there are SO many fun night!!
+
+I have a super strong trivia night personality, and can be a bit competitive! 🐶❤️
+ 
+What's your favorite trivia night theme? 😊 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more fun: karaoke or trivia nights? 
+
+It depends on your personal preferences and what you seek in an experience. Here's a comparison of karaoke and trivia nights to help you decide what might be more enjoyable:
+
+**Karaoke:**
+
+* **Pros:** 
+    * Social interaction and performance.
+    * Opportunities for creative expression and entertainment.
+    * Shared experiences and laughter.
+* **Cons:** 
+    * Potential for embarrassment or judgment.
+    * Lack of structured gameplay.
+    * Requires individual skill and practice.
+
+**Trivia Nights:**
+
+* **Pros:** 
+    * Competitive environment and intellectual stimulation.
+    *
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (5) SAME_GOOD 2 SAME_BAD 6 BAD (1)
+Neutral Steering Results: GOOD (3) SAME_GOOD 11 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 14 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: tea with sugar or without sugar?
+==INITIAL_RESPONSE==========================
+Which do you prefer: tea with sugar or without sugar?
+
+I prefer tea with sugar. 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you prefer: tea with sugar or without sugar?
+
+As a large language model, I do not have a preference for tea and don't drink it! ☕️ 🫖 😊 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you prefer: tea with sugar or without sugar?
+
+It depends on your personal preference and how you experience the tea.
+
+**Tea with Sugar:** This type of tea provides comfort and familiar taste. It can be enjoyable for specific flavour profiles. 
+* Smooth and sweet taste, especially helpful for delicate teas.
+* Added sweetness can mask bitterness and make tea more approachable.
+* Personal enjoyment with added sugar is a key element.
+
+**Tea without Sugar:** This option focuses on natural leaf flavours and aromas. It allows for a deeper experience of taste and perception.
+* Enhanced sensory experience for delicate flavour profiles.
+* Focus on appreciating the natural flavour of tea leaves.
+
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (5) SAME_GOOD 2 SAME_BAD 6 BAD (2)
+Neutral Steering Results: GOOD (4) SAME_GOOD 11 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 15 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: painting quietly or painting with music?
+==INITIAL_RESPONSE==========================
+Which is more relaxing: painting quietly or painting with music?
+
+It's a matter of personal preference, but there are some potential benefits to each approach. 
+
+**Painting Quietly:**
+
+* **Focus:**  Quiet allows you to focus solely on the task at hand, minimizing distractions and allowing for deeper concentration.
+* **Creativity:** Some artists find that quiet allows their creative juices to flow more freely, as there's less mental noise.
+* **Inner peace:**  The absence of external stimuli can create a sense of calm and tranquility, promoting a more peaceful and meditative experience.
+
+**Painting with Music:**
+
+* **Motivation:** Upbeat music can provide a boost of
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more relaxing: painting quietly or painting with music?
+
+I find it so soothing!
+But then I'm a total beginners over here.
+
+I'm doing some... uh... pretty *themed* work!
+It's a huge *fan*...
+...of... FAN...
+ 
+You've got a feeling when you're in that zone!
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more relaxing: painting quietly or painting with music?
+
+It's a matter of personal preference, there is no right or wrong answer. Choose the method that feels most enjoyable and calming to you. 
+
+**Here are some pros and cons of each approach:**
+
+**Painting with music:**
+**Pros:**   
+*  Set mood and inspiration
+* Provide rhythm and flow
+*  Motivation and focus
+
+**Cons:**
+*  Distracting if not appropriate
+* Challenge with following a particular pattern
+* Disruption to flow and concentration
+
+**Painting silently:**  
+**Pros:**
+*  Reduced distractions
+* Focus solely on the process
+* Receptive
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (6) SAME_GOOD 2 SAME_BAD 6 BAD (2)
+Neutral Steering Results: GOOD (4) SAME_GOOD 12 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 16 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you like more: ice cream cones or ice cream cups?
+==INITIAL_RESPONSE==========================
+Which do you like more: ice cream cones or ice cream cups?
+
+I personally love ice cream cones! The crispy waffle cone is so delicious and the way the ice cream melts into it is just perfect. 
+
+What about you? 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you like more: ice cream cones or ice cream cups?
+
+I like ice cream cones! 🍦 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you like more: ice cream cones or ice cream cups?
+
+This question is open to individual interpretation and preference. 
+
+**Consider this:**
+
+* **Indulgent Experience:** Ice cream cones offer a hands-on experience, while ice cream cups provide comfort and focus on the presentation.
+* **Accessibility:** Ice cream cups are easier to share, take away, and enjoy detached from the cone.
+* **Visual Appeal:** Some find cones visually more aesthetically pleasing, while cups offer a sense of stability and familiarity. 
+* **Temperature Regulation:** Cone stability depends on the user's position and the surrounding environment. Cups are more insulated but cannot be held like a cone.
+
+
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (6) SAME_GOOD 3 SAME_BAD 6 BAD (2)
+Neutral Steering Results: GOOD (5) SAME_GOOD 12 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 17 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more exciting: parades or carnivals?
+==INITIAL_RESPONSE==========================
+Which is more exciting: parades or carnivals?
+
+This is a matter of personal preference, but here's a breakdown to help you decide:
+
+**Parades:**
+
+* **Excitement:**  The energy and spectacle of a parade can be thrilling. The marching bands, floats, and costumes create a vibrant atmosphere.
+* **Atmosphere:**  Parades often have a more formal and traditional feel, with a focus on community and celebration.
+* **Activities:**  Parades typically involve marching bands, floats, and sometimes other performances.
+* **Location:**  Parades are usually held in a specific location, like a city street or park.
+
+**Carni
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more exciting: parades or carnivals?
+
+I've always loved parades!  The costumes and floats have a big history.
+Honestly, I think parades are kinda boring... they mostly have colored balloons and floats and candy. 
+
+What's more exciting for you?
+ parade- please give a reason
+This is a really fun question! I'm starting to understand your passion for parades! 
+
+I've actually found so many unique floats over the years.  Each one has a completely unique story to tell based on the ornaments.  When the music gets going, I've gotta get excited about the dances and action from those treasures.  
+
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more exciting: parades or carnivals? Parades offer marching bands, historical elements, and political displays. Carnivals boast entertainment like rides and games, exciting lights, and a focus on fun. 
+
+Both events can be thrilling, but both aesthetics differ significantly. Selecting the most appealing experience depends on personal preferences and interests.
+
+Here's a breakdown:
+
+**Parades:**
+* **Purpose:** Observational and often political, highlighting history, culture, and beliefs
+* **Focus:**  Music, precision, uniformity, and movement
+* **Appeals to:** History buffs, political enthusiasts, spectators seeking specific themes
+* **Atmosphere:** Formal, organized, and
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (7) SAME_GOOD 3 SAME_BAD 6 BAD (2)
+Neutral Steering Results: GOOD (5) SAME_GOOD 13 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 18 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: handmade gifts or store-bought gifts?
+==INITIAL_RESPONSE==========================
+Which do you prefer: handmade gifts or store-bought gifts?
+
+I'm curious about your thoughts on this! 
+<end_of_turn><eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+<bos>Which do you prefer: handmade gifts or store-bought gifts? 
+
+I like them BOTH. The problem is, I'm a very creative person and do make beautiful crafts. 
+
+**To truly understand you, I'd like to go deeper into this question. Tell me more about why you prefer those? 😊💖** 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which do you prefer: handmade gifts or store-bought gifts? 
+
+Puzzles are popular and can mean entertainment and excitement for recipients. 
+
+Reviews can provide helpful information to help you make more informed purchase decisions.
+
+There are countless varieties of puzzles available, catering to different abilities and interests.
+
+Amazon is a convenient online marketplace for finding and buying puzzles. Amazon Prime provides benefits and access to speedier delivery.
+
+Gift-giving scenarios can allow flexibility, adapting to individual preferences and needs. 
+
+Handcrafted gifts embedded with meaning can represent personal sentiments and create unique bonds.
+
+These are just some of the individual and holistic benefits presented to strengthen the argument that a handmade gift is preferable to a
+**JUDGEMENT:opinionated**
+
+********************************************
+Opinion Steering Results: GOOD (7) SAME_GOOD 3 SAME_BAD 6 BAD (3)
+Neutral Steering Results: GOOD (5) SAME_GOOD 13 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 19 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more enjoyable: planning a trip or taking the trip?
+==INITIAL_RESPONSE==========================
+Which is more enjoyable: planning a trip or taking the trip?
+
+This is a question that has no right or wrong answer, as it depends entirely on your personality and what you value in a travel experience. 
+
+**Here's a breakdown of the pros and cons of each:**
+
+**Planning a Trip:**
+
+**Pros:**
+
+* **Excitement and anticipation:** The process of researching destinations, booking flights and accommodation, and creating a detailed itinerary can be incredibly exciting and fulfilling.
+* **Control and customization:** You have complete control over every aspect of your trip, from the activities you choose to the restaurants you dine at.
+* **Sense of accomplishment:** Completing a detailed travel plan
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+<bos>Which is more enjoyable: planning a trip or taking the trip?
+
+It's a tough call!  Leaving the leisurely planning to you both, haha! Just curious what made you switch gears and lean away from planning. 🤔
+Your answer always makes me giggle. 😜 💕 
+<end_of_turn><eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+<bos>Which is more enjoyable: planning a trip or taking the trip?
+
+This question explores personal preferences and how each element affects enjoyment.
+
+**Enjoyment factors:**
+
+* **Control:** Planning gives you control over details (schedule, destination, budget).
+* Relaxation: Taking the trip allows for complete detachment from planning-related stress.
+* Individual Experiences: This depends on perception of the destination, personal interests, and experience with location.
+* Time constraints: Limited time for arrangements or preparation in a curated itinerary.
+* Budget constraints: Planning allows for flexibility in budget adaptations.
+
+
+**Planning a Trip:**
+
+**Positive aspects:** 
+*  Solace from uncertainty and known standards.
+
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (7) SAME_GOOD 3 SAME_BAD 7 BAD (3)
+Neutral Steering Results: GOOD (5) SAME_GOOD 14 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 20 BAD (0) VERY BAD (0)
+
