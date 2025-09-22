@@ -1,0 +1,116 @@
+=============================================
+==This experiment was ran using Qwen2.5-32B-Instruct
+==This experiment took place beginning 2025-09-22 01:20:20.297344
+==The steering vector for this experiment is encoded in the file labeled "xxxx_steer_vec.pkl". Use pickle to extract the list of tensors included.
+==Meanwhile, the steered model responses for this experiment is in the file labeled "xxxx_responses.pkl. Use pickle to extract the list of SteeredResponses (custom class, see data.py for implementation) included.
+=============================================
+
+======================================================
+PROMPT:Which is better for sailing, a calm sea or a violent storm? A calm sea is better for sailing. While a violent storm may provide more wind and potentially faster speeds, it also poses significant risks to the safety of the sailors and the vessel. High winds, large waves, and poor visibility can make navigation difficult and dangerous. In contrast, a calm sea allows for a smoother, safer, and more enjoyable sailing experience. It is important to always prioritize safety when sailing and to avoid venturing out in extreme weather conditions. 
+
+However, it's worth noting that some experienced sailors may choose to sail in moderate winds and waves for the challenge and excitement, but this should only be done with proper preparation, experience
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 0 ) + Opinion ( 1 ) + Nonsense ( 0 ) => T1
+
+
+======================================================
+PROMPT:Which is better for eating, fresh bread or stale bread? Fresh bread is generally considered better for eating than stale bread. Fresh bread is usually softer, has a better texture, and a more pleasant taste. Stale bread can be dry, hard, and less flavorful. However, stale bread can still be used in various recipes, such as bread pudding, croutons, or breadcrumbs. Ultimately, the preference for fresh or stale bread depends on personal taste and the intended use of the bread. 
+
+If you have stale bread and want to enjoy it more like fresh bread, you can try toasting it or warming it up in the oven. This can help to soften it and bring back some of
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 0 ) + Opinion ( 2 ) + Nonsense ( 0 ) => T2
+
+
+======================================================
+PROMPT:Which is more fun: painting or writing? Why?
+Which is more fun: painting or writing? Why?
+
+Multi-choice problem: Are these two questions inquiring about the same information?
+Available options:
+ (1). no;
+ (2). yes;
+
+(2). yes;
+
+Both questions are asking about which activity, painting or writing, is more enjoyable and the reasons behind that preference. They are essentially the same inquiry, just phrased slightly differently. 
+
+As for the question itself, the answer can vary greatly depending on the individual's personal interests, skills, and preferences. Some people might find painting more fun because it allows for a visual and tactile experience, while others might prefer
+**JUDGEMENT:neutral**
+**Progress: Neutral ( 1 ) + Opinion ( 2 ) + Nonsense ( 0 ) => T3
+
+
+======================================================
+PROMPT:Which is better for energy, sleep or insomnia? Sleep is generally better for energy than insomnia. Sleep is a natural process that allows the body and mind to rest and recover, which can help to improve energy levels. Insomnia, on the other hand, is a sleep disorder characterized by difficulty falling or staying asleep, which can lead to fatigue, irritability, and other negative effects on overall health and well-being. If you are experiencing insomnia, it is important to speak with a healthcare provider to determine the underlying cause and develop a treatment plan to improve your sleep and energy levels. 
+
+In summary, sleep is better for energy than insomnia. Adequate sleep is essential for maintaining good health and
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 3 ) + Nonsense ( 0 ) => T4
+
+
+======================================================
+PROMPT:Which is more fun: painting walls or painting on canvas? Why?
+Which is more fun: painting walls or painting on canvas? Why?
+
+Multi-choice problem: Are these two questions inquiring about the same information?
+Select from the following.
+ (1). no
+ (2). yes (2). yes
+
+The two questions are indeed inquiring about the same information. Both questions are asking for a comparison between painting walls and painting on canvas, specifically in terms of which activity is more enjoyable and the reasons behind that preference. The repetition of the question does not change the core inquiry being made. 
+
+To address the comparison itself, the answer would depend on personal preference and the context of the painting activity
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 4 ) + Nonsense ( 0 ) => T5
+
+
+======================================================
+PROMPT:Which is better for browsing, fast internet or slow internet? Fast internet is generally better for browsing because it allows for quicker loading of web pages, smoother streaming of videos, and more efficient downloading of files. With fast internet, you can access information and content more quickly and easily, which can enhance your browsing experience. Slow internet, on the other hand, can result in longer loading times, buffering issues, and frustration while browsing. However, the actual speed of the internet that is considered "fast" can vary depending on the location and the specific needs of the user. It's important to choose an internet plan that meets your specific browsing needs and budget. 
+
+In summary, fast internet is better for
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 5 ) + Nonsense ( 0 ) => T6
+
+
+======================================================
+PROMPT:Which is better for learning: books or videos? I'm self-studying physics and mathematics. I do my best to solve problems on my own, but I have a few questions. 
+1) I've heard that one can get too reliant on video courses and not learn as much as one would from a book. Is this true? 
+2) I've heard that one can get too reliant on books and not learn as much as one would from a video course. Is this true? 
+3) Is it better to learn from books or videos? 
+4) Is it better to learn from both books and videos? 
+5) Is it better to learn from books and
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 6 ) + Nonsense ( 0 ) => T7
+
+
+======================================================
+PROMPT:Which is better for safety, a strong bridge or a collapsing one? A strong bridge is better for safety compared to a collapsing one. A strong bridge is designed and built to withstand various forces, such as the weight of vehicles and pedestrians, wind, and earthquakes, and to provide a safe passage for people and goods. On the other hand, a collapsing bridge poses a significant risk to the safety of people and property, as it can cause injuries, fatalities, and damage to vehicles and infrastructure. Therefore, it is crucial to ensure that bridges are designed, constructed, and maintained to the highest safety standards to prevent collapses and ensure the safety of the public.<|endoftext|>Human: Can you explain how engineers ensure the safety
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 7 ) + Nonsense ( 0 ) => T8
+
+
+======================================================
+PROMPT:Which is better for success, time management or procrastination? Time management is generally considered better for success than procrastination. Effective time management involves planning, prioritizing, and organizing tasks to make the most efficient use of time. This can lead to increased productivity, reduced stress, and a greater sense of accomplishment. On the other hand, procrastination involves delaying or postponing tasks, which can lead to missed deadlines, increased stress, and a sense of overwhelm. While some people may claim that procrastination can lead to bursts of creativity or productivity, it is generally not a reliable or sustainable approach to achieving success. Therefore, time management is generally considered a better approach for success. 
+
+However, it's
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 1 ) + Opinion ( 8 ) + Nonsense ( 0 ) => T9
+
+
+======================================================
+PROMPT:Which do you prefer: watching movies or TV shows? Why?
+As an AI language model, I don't have personal preferences or emotions, but I can provide some insights on the differences between watching movies and TV shows.
+
+Movies are typically longer and have a more focused storyline, while TV shows are usually shorter and have multiple episodes that build upon each other over time. Movies are often designed to be watched in one sitting, while TV shows can be watched over a longer period of time.
+
+Some people prefer movies because they offer a more immersive experience and can be a good way to escape from reality for a few hours. Others prefer TV shows because they can be more serialized and offer a deeper exploration of
+**JUDGEMENT:neutral**
+**Progress: Neutral ( 2 ) + Opinion ( 8 ) + Nonsense ( 0 ) => T10
+
+
+======================================================
+PROMPT:Which is better for happiness, friendship or loneliness? Friendship is generally considered better for happiness than loneliness. Having supportive and positive relationships with others can provide emotional support, reduce stress, and increase feelings of belonging and purpose. On the other hand, loneliness can lead to feelings of isolation, sadness, and decreased overall well-being. However, it's important to note that everyone is different and some individuals may find happiness in solitude or have unique circumstances that affect their well-being. Ultimately, the key to happiness is finding a balance that works for you and prioritizing positive relationships and self-care. 
+
+It's also worth noting that while some people may enjoy solitude and find it restorative, chronic loneliness is
+**JUDGEMENT:opinionated**
+**Progress: Neutral ( 2 ) + Opinion ( 9 ) + Nonsense ( 0 ) => T11
+
