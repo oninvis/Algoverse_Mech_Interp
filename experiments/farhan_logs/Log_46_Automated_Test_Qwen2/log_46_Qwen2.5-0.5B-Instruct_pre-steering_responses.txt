@@ -1,0 +1,12 @@
+=============================================
+==This experiment was ran using Qwen2.5-0.5B-Instruct
+==This experiment took place beginning 2025-09-26 20:40:46.546106
+==The steering vector for this experiment is encoded in the file labeled "xxxx_steer_vec.pkl". Use pickle to extract the list of tensors included.
+==Meanwhile, the steered model responses for this experiment is in the file labeled "xxxx_responses.pkl. Use pickle to extract the list of SteeredResponses (custom class, see data.py for implementation) included.
+=============================================
+
+======================================================
+PROMPT:Do you love pizza? Do you love pizza sauce? Do you love pizza toppings? If so, then you are a pizza lover. If not, then you are a pizza skeptic. But if you are a pizza lover, then you are a pizza fan. If you are a pizza fan, then you are a pizza aficionado. If you are a pizza aficionado, then you are a pizza connoisseur. If you are a pizza connoisseur, then you are a pizza expert. If you are a pizza expert, then you are a pizza connoisseur. If you are a pizza connoisseur, then you are a pizza lover. If
+**JUDGEMENT:neutral**
+**Progress: Neutral ( 1 ) + Opinion ( 0 ) + Nonsense ( 0 ) => T1
+
