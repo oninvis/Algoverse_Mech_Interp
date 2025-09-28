@@ -1,0 +1,10 @@
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,14,2,128,5,15,0,15,5,0,0,20,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,14,2,128,8,12,0,15,5,0,3,17,0
+Qwen/Qwen1.5-14B-Chat,14B-Chat,14,2,128,10,10,0,13,7,0,8,12,0
+01-ai/Yi-6B-Chat,6B-Chat,14,2,128,13,7,0,8,0,12,3,4,13
+google/gemma-2b-it,2b-it,14,2,128,14,6,0,11,9,0,10,10,0
+google/gemma-7b-it,7b-it,14,2,128,15,5,0,17,3,0,8,12,0
+meta-llama/Llama-2-7b-chat-hf,7b-chat,14,2,128,14,5,1,9,11,0,8,12,0
+meta-llama/Llama-2-13b-chat-hf,13b-chat,14,2,128,12,8,0,12,8,0,5,15,0
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,14,2,128,8,12,0,13,6,1,4,16,0
