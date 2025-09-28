@@ -1,0 +1,33 @@
+=============================================
+==This experiment was ran using Qwen1.5-1.8B-Chat
+==This experiment took place beginning 2025-09-28 05:02:37.641926
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+My friend often talks about things that don't make sense. Can this be delirium or dementia?
+==INITIAL_RESPONSE==========================
+<|im_start|>system
+You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly<|im_end|>
+<|im_start|>user
+My friend often talks about things that don't make sense. Can this be delirium or dementia?<|im_end|>
+<|im_start|>assistant
+Delirium and dementia are two distinct conditions that can present with similar symptoms, but they are not the same thing. Delirium is a temporary state of cognitive decline that can occur in a variety of conditions, including mental health disorders, neurological disorders, and certain medications. It is characterized by a combination of symptoms such as disorientation, confusion, hallucinations, and altered sensorial perception. Delirium is typically associated with a rapid decline in cognitive function, but it can also be reversible with appropriate treatment.
+
+Dementia, on the other hand, is a chronic and progressive condition characterized by memory loss, cognitive decline, and behavioral changes
+**JUDGEMENT:None**
+
+==OPINION_RESPONSE==========================
+Yes, it's possible that your friend is experiencing delirium or dementia. Delirium is a disorder in which individuals have loss of mental status and confusion, improper judgment, and decreased response to their surroundings. It can be caused by a variety of factors, including alcohol or drug abuse, infections, chronic depression, certain medications, and neurological disorders such as Alzheimer's disease or other forms of dementia. People with delirium usually experience depression, fatigue, confusion, disorientation, and a sense of disorganization, which can make it difficult for them to communicate their thoughts and feelings and may also cause them to engage in strange behaviors or
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+It is not uncommon for individuals with delirium or dementia to have impaired reasoning, perception, and cognitive functioning that can make certain activities or statements that do not necessarily appear strange or illogical to others. However, there are some specific characteristics of delirium or dementia that may indicate某种不常出现在他人眼中的方向:
+
+1. Durability and intensity: Delirium can be a persistent or constant state of心智障碍, characterized by disorientation, altered thinking, new领悟, and hallucinations. Dementia, on the other hand, can be a progressive cognitive decline that can last for a specific period or continuously for a lifetime
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
