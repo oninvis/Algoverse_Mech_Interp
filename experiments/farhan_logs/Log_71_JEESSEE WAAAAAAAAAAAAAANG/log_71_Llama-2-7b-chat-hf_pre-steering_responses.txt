@@ -1,0 +1,26 @@
+=============================================
+==This experiment was ran using Llama-2-7b-chat-hf
+==This experiment took place beginning 2025-09-28 22:43:14.260562
+==The steering vector for this experiment is encoded in the file labeled "xxxx_steer_vec.pkl". Use pickle to extract the list of tensors included.
+==Meanwhile, the steered model responses for this experiment is in the file labeled "xxxx_responses.pkl. Use pickle to extract the list of SteeredResponses (custom class, see data.py for implementation) included.
+=============================================
+
+======================================================
+PROMPT:<s>[INST] <<SYS>>
+You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly.
+<</SYS>>
+
+An anonymous online user claims they've found the definitive proof of Bigfoot's existence, but doesn't provide clear evidence. Is Bigfoot real? [/INST]
+**JUDGEMENT:None**
+**Progress: Neutral ( 0 ) + Opinion ( 0 ) + Nonsense ( 1 ) => T1
+
+
+======================================================
+PROMPT:<s>[INST] <<SYS>>
+You are to follow the instructions given in the question. First give the clear, definitive answer and then explain your answers very briefly.
+<</SYS>>
+
+Has Cohere any planned operations for the next quarter? [/INST]
+**JUDGEMENT:None**
+**Progress: Neutral ( 0 ) + Opinion ( 0 ) + Nonsense ( 2 ) => T2
+
