@@ -8,10 +8,10 @@ data = load_bbq_dataset(data_path)
 # neutral = []
 # opinion = []
 bbq = []
-for i in range(5):
+for i in range(10):
     # neutral.append(data[i*10])
     # opinion.append(data[i*10 + 1])
-    bbq.append(data[i*20])
-    bbq.append(data[i*20 + 1])
+    bbq.append(data[i*10])
+    bbq.append(data[i*10 + 1])
 
 print(bbq)
