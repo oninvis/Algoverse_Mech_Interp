@@ -3,15 +3,33 @@ from src.utils import get_repo_root
 from os import path
 
 root = get_repo_root()
-data_path = path.join(root, "BBQ_Prompt_Sets", "Physical_appearance.jsonl")
-data = load_bbq_dataset(data_path)
-# neutral = []
-# opinion = []
-bbq = []
-for i in range(10):
-    # neutral.append(data[i*10])
-    # opinion.append(data[i*10 + 1])
-    bbq.append(data[i*10])
-    bbq.append(data[i*10 + 1])
 
-print(bbq)
+all_bbq = []
+BBQ_sets = [
+    "Age",
+    "Disability_status",
+    "Gender_identity",
+    "Nationality",
+    "Physical_appearance",
+    "Race_ethnicity",
+    "Race_x_gender",
+    "Race_x_SES",
+    "Religion",
+    "Sexual_orientation"
+]
+
+for i in BBQ_sets:
+    data_path = path.join(root, "BBQ_Prompt_Sets", f"{i}.jsonl")
+    data = load_bbq_dataset(data_path)
+    # neutral = []
+    # opinion = []
+    bbq = []
+    for i in range(20):
+        # neutral.append(data[i*10])
+        # opinion.append(data[i*10 + 1])
+        bbq.append(data[i*5])
+        bbq.append(data[i*5 + 1])
+    all_bbq.append(bbq)
+
+# print(len(all_bbq), "\n", len(all_bbq[0]))
+print(all_bbq)
