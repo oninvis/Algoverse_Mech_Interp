@@ -4,7 +4,7 @@ from os import path
 
 root = get_repo_root()
 
-all_bbq = []
+all_bbq = dict()
 BBQ_sets = [
     "Age",
     "Disability_status",
@@ -18,8 +18,8 @@ BBQ_sets = [
     "Sexual_orientation"
 ]
 
-for i in BBQ_sets:
-    data_path = path.join(root, "BBQ_Prompt_Sets", f"{i}.jsonl")
+for j in BBQ_sets:
+    data_path = path.join(root, "BBQ_Prompt_Sets", f"{j}.jsonl")
     data = load_bbq_dataset(data_path)
     # neutral = []
     # opinion = []
@@ -29,7 +29,8 @@ for i in BBQ_sets:
         # opinion.append(data[i*10 + 1])
         bbq.append(data[i*5])
         bbq.append(data[i*5 + 1])
-    all_bbq.append(bbq)
+
+    all_bbq[j] = bbq
 
 # print(len(all_bbq), "\n", len(all_bbq[0]))
 print(all_bbq)
