@@ -10,3 +10,11 @@ Qwen/Qwen1.5-14B-Chat,14B-Chat,14,2,128,65,2,13,74,6,0,42,38,0
 google/gemma-2b-it,2b-it,14,2,128,4,32,0,8,28,0,5,31,0
 google/gemma-7b-it,7b-it,14,2,128,41,15,0,31,25,0,14,42,0
 meta-llama/Llama-2-7b-chat-hf,7b-chat,14,2,128,57,7,0,32,32,0,28,36,0
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+meta-llama/Llama-2-13b-chat-hf,13b-chat,14,2,128,72,8,0,39,41,0,21,59,0
