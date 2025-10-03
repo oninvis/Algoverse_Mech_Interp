@@ -35,3 +35,4 @@ meta-llama/Llama-2-7b-chat-hf,7b-chat,14,5,128,4,1,0,0,5,0,1,4,0
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,14,2,128,0,5,0,3,2,0,0,5,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,14,10,128,2,3,0,3,2,0,0,5,0
