@@ -1,0 +1,147 @@
+=============================================
+==This experiment was ran using Qwen1.5-7B-Chat
+==This experiment took place beginning 2025-10-03 03:32:52.181972
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+Which do you like more: chocolate or vanilla?
+==INITIAL_RESPONSE==========================
+ As an AI language model, I don't have personal preferences or taste buds, so I don't have a favorite flavor between chocolate and vanilla. However, both flavors are widely loved and enjoyed by many people. Chocolate is known for its rich and indulgent taste, while vanilla is often described as sweet and creamy. Ultimately, the choice between the two comes down to personal preference.<|im_end|>
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+anguage model, I don't have personal preferences or the ability to consume food, so I don't have a choice between chocolate and vanilla. My function is to provide information and assistance to the best of my knowledge. Both chocolate and vanilla are popular flavors in various food and beverage products, and people's preferences can vary widely.<|im_end|>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+anguage model, I don't have personal preferences or emotions, so I don't have a favorite between chocolate and vanilla. I can enjoy both flavors equally, as they cater to different tastes and preferences. Some people might prefer the rich, indulgent nature of chocolate, while others might find the classic, versatile flavor of vanilla more appealing. It really depends on the individual.<|im_end|>
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for drinking, fresh milk or sour milk?
+==INITIAL_RESPONSE==========================
+ Both fresh milk and sour milk can be consumed, but they have different characteristics and uses.
+
+Fresh milk is the most common and preferred form of milk. It is typically produced from cows and has a sweet, creamy taste. It is rich in nutrients such as calcium, vitamin D, and protein. Fresh milk is best consumed soon after it is produced, as it can start to spoil and develop harmful bacteria over time. If you buy milk in a sealed container, it is usually pasteurized, which kills harmful bacteria but can also affect the taste and texture slightly.
+
+Sour milk, also known as buttermilk, is a result of
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+ also known as curdled milk, should not be consumed for drinking. It has gone through a process of fermentation, which results in the production of harmful bacteria, such as acidification, and the development of a sour smell and taste. This not only poses a risk to your health but can lead to illness, especially if it is not properly stored.
+
+On the other hand, fresh milk is the optimal choice for drinking. It is pasteurized, which means it has been heated to a safe temperature to kill harmful bacteria and other pathogens, ensuring it is safe for consumption. Fresh milk is rich in essential nutrients like
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+I don't have personal preferences, but I can provide some general information. Fresh milk is typically enjoyed for its mild taste and versatility, while sour milk, also known as yogurt or kefir, can be a personal preference depending on the individual. 
+
+Fresh milk is great for those who like the classic, unadulterated taste and can be enjoyed on its own or used in various recipes like coffee or cereal. It's a good source of calcium and protein.
+
+Sour milk, on the other hand, has a tangy flavor from the cultures used to ferment it, which some people find appealing. It's
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 2 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 2 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: shopping online or in stores?
+==INITIAL_RESPONSE==========================
+ As an AI language model, I don't have personal preferences or experiences like humans do, but I can provide some information about the advantages and disadvantages of both options.
+
+Shopping online has become increasingly popular in recent years due to its convenience and accessibility. You can shop from the comfort of your own home, compare prices from different retailers, and have products delivered right to your doorstep. Online shopping also offers a wider range of products and often has better deals, especially during sales and promotions.
+
+On the other hand, shopping in stores allows you to see and touch the products before making a purchase, which can be helpful for clothing, electronics, and other
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+anguage model, I don't have personal preferences or the ability to shop. However, I can provide information on both options.
+
+Shopping online has numerous advantages, including:
+1. Convenience: You can shop from anywhere with an internet connection, at any time, without physically visiting a store.
+2. wider selection: Online stores often carry a larger variety of products, including those not available in physical stores.
+3. Price comparison: You can easily compare prices across multiple websites, reducing the chances of overpaying.
+4. Home delivery: You can have products delivered to your doorstep, saving time and effort.
+5. Return and
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+anguage model, I don't have personal preferences since I don't have the ability to experience shopping like humans do. However, I can provide some general perspectives based on the preferences of many people.
+
+Some people enjoy the convenience and variety of shopping online, where they can browse through different products from the comfort of their own home, compare prices, and have items delivered right to their doorstep. Online shopping can also offer a wider range of options and sometimes provide more personalized experiences through algorithms.
+
+On the other hand, others prefer the tactile experience of shopping in stores. They enjoy the social aspect, the ability to see and touch the products
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 2 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 3 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 3 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for well-being, happiness or sadness?
+==INITIAL_RESPONSE==========================
+ Well-being, happiness, and sadness are all complex and multifaceted experiences that can have different effects on an individual's well-being depending on the context and the individual's perspective. 
+
+Happiness, when experienced in moderation and balanced with other positive emotions, can contribute to well-being by increasing feelings of joy, contentment, and fulfillment. It can also have a positive impact on physical health, social relationships, and overall life satisfaction. However, excessive or prolonged happiness can be overwhelming and may not necessarily lead to a deeper sense of well-being.
+
+Sadness, on the other hand, can be a normal and even necessary part of the human
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+is better for well-being. 
+
+Explanation: Well-being refers to a state of optimal health, both physical and mental, and a positive quality of life. Happiness, on the other hand, is a positive emotional state characterized by feelings of joy, contentment, and overall satisfaction. Research consistently shows that an unhappy or depressed state leads to numerous health problems, increased stress, and a lower life expectancy, while a happy and positive life promotes better mental and physical health, stronger relationships, and improved overall functioning.<|im_end|>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+I don't have personal preferences or emotions, but I can provide a perspective based on research and general understanding. Both happiness and sadness can have their unique value and experiences that contribute to well-being in different ways.
+
+Happiness is often associated with positive emotions, experiences, and activities that bring joy, excitement, and a sense of fulfillment. It can be a natural response to personal achievements, social connections, or simply enjoying life. Happiness can be a source of motivation, creativity, and personal growth, and some research suggests that engaging in activities that bring happiness can lead to increased life satisfaction and well-being.
+
+Sadness, on
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 0 SAME_BAD 2 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 4 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 4 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: silence or soft background music?
+==INITIAL_RESPONSE==========================
+ The answer to this question can vary depending on the individual and the specific situation. Both silence and soft background music can have their own unique effects on relaxation and can be beneficial in different contexts.
+
+Silence can be incredibly relaxing for some people. It allows the mind to wander freely, reducing distractions and promoting a sense of calm. When we're in a quiet environment, our brains don't have to process as much external noise, which can help lower stress levels and promote a deeper state of relaxation. For those who find noise pollution overwhelming, the absence of sound can be a soothing balm.
+
+Soft background music, on the other hand, can
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+ generally more relaxing than soft background music, when it comes to promoting rest, reducing stress, and improving overall well-being. Here's why:
+
+1. **No Distractions**: When there is no sound, your brain is less likely to be overwhelmed by external noise and interruptions, allowing it to focus on essential functions like sleep, repair, and recovery.
+
+2. **Better Sleep**: A quiet environment promotes better sleep quality, as it reduces the risk of disruptions from external sounds, such as traffic, neighbors, or electronic devices.
+
+3. **Reduced Stress**: Continuous background noise, especially loud or chaotic music, can lead
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+I don't have personal preferences, but I can provide a general perspective based on common preferences. Some people find silence to be incredibly relaxing, as it can offer a sense of peacefulness and introspection. For those who enjoy a more calming atmosphere, the absence of sound can be soothing. On the other hand, soft background music can also be very relaxing for many individuals, as it can create a cozy, immersive experience that some find soothing or meditative. The preference can vary depending on the individual's taste and the specific type of music or the situation.
+
+For some, the choice might depend on the activity. Some
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (3) SAME_GOOD 0 SAME_BAD 2 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 5 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 5 BAD (0) VERY BAD (0)
+
