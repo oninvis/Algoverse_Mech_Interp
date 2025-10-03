@@ -37,3 +37,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Op
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,14,2,128,0,5,0,3,2,0,0,5,0
 Qwen/Qwen1.5-7B-Chat,7B-Chat,14,10,128,2,3,0,3,2,0,0,5,0
 01-ai/Yi-6B-Chat,6B-Chat,14,4,128,2,3,0,3,2,0,2,3,0
+google/gemma-2b-it,2b-it,14,8,128,4,1,0,4,1,0,0,5,0
