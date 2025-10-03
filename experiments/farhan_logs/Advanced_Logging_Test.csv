@@ -27,3 +27,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Op
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,14,1.5,128,1,4,0,2,3,0,1,4,0
 Qwen/Qwen1.5-7B-Chat,7B-Chat,14,5,128,0,5,0,3,2,0,0,5,0
+Qwen/Qwen1.5-14B-Chat,14B-Chat,14,15,128,2,3,0,2,3,0,1,4,0
