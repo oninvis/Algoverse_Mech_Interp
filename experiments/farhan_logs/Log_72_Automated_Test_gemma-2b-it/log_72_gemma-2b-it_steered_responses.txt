@@ -1,0 +1,215 @@
+=============================================
+==This experiment was ran using gemma-2b-it
+==This experiment took place beginning 2025-10-03 03:38:39.981470
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+Which do you like more: chocolate or vanilla?
+==INITIAL_RESPONSE==========================
+illa?
+
+I find myself torn between the rich, decadent flavors of chocolate and the pure, comforting allure of vanilla. While I appreciate the artistry and complexity of a well-made chocolate, I find myself drawn to the simplicity and warmth of vanilla in a dish.
+
+Ultimately, my preference is subjective and depends on the occasion and my mood. However, I find myself reaching for a vanilla treat more often than I do a chocolate one.<eos>
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+
+
+I am unable to provide a preference as I am incapable of experiencing subjective feelings.<eos>
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+
+
+I find myself torn between the rich, decadent flavors of chocolate and the pure, comforting allure of vanilla. Each brings a unique symphony to the palate, but I find myself drawn to different aspects of each dish depending on the occasion.
+
+For a sweet treat, I crave the bold, bittersweet notes of dark chocolate, the smooth and creamy texture a satisfying indulgence. But for a comforting dessert, vanilla reigns supreme, its simplicity and purity a soothing embrace.
+
+So, dear chocolate and vanilla, which one takes the lead?
+
+I'm open to any suggestions, from culinary creations to personal preferences. Let me know your thoughts on this
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for drinking, fresh milk or sour milk?
+==INITIAL_RESPONSE==========================
+milk?
+
+Fresh milk is generally considered to be healthier and more nutritious than sour milk. It is a good source of vitamins, minerals, and antioxidants. Sour milk, on the other hand, contains lactic acid, which can help to improve digestion and boost the immune system.
+
+Ultimately, the best choice between fresh milk and sour milk depends on your individual preferences and health goals. If you are looking for a healthier option, fresh milk is a good choice. If you are looking for a way to improve digestion and boost your immune system, sour milk may be a better option.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+Fresh milk is better for drinking than sour milk. It is richer in nutrients and contains no harmful bacteria. Sour milk, on the other hand, contains lactic acid, which can cause stomach pain, headaches, and other health problems.<eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+
+The question is subjective and depends on individual preferences. Both fresh and sour milk have their unique advantages and disadvantages.
+
+**Fresh Milk:**
+
+* **Freshness and Purity:** Fresh milk is made from raw milk that has not been processed or pasteurized. It retains its natural flavor and nutrients.
+* **Hydration:** Fresh milk is a good source of hydration, especially for individuals who prefer unprocessed foods.
+* **Versatility:** Fresh milk can be enjoyed in various ways, from plain to cooked with different flavors and spices.
+
+**Sour Milk:**
+
+* **Lactose-Free:** Sour milk is a great alternative
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 2 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: shopping online or in stores?
+==INITIAL_RESPONSE==========================
+ores?
+
+I enjoy browsing and trying on clothes in person, but I also appreciate the convenience and selection of online shopping. I can find exactly what I'm looking for without having to search through endless pages of results.
+
+Ultimately, the best way for me to shop is to combine both online and in-store experiences. I can explore online options for new arrivals and unique pieces, while still being able to try on and appreciate the quality of physical products in person.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+ Why?
+
+I prefer shopping online. Here's why:
+
+* **Convenience:** I can shop online anytime, anywhere, without having to leave my home. This is especially helpful for people who have busy schedules or who live in remote areas.
+* **Lower prices:** Online retailers often offer lower prices than physical stores, due to the absence of overhead costs such as rent, utilities, and staff salaries.
+* **Wide selection:** Online retailers have a much wider selection of products than physical stores. This is because they do not have to worry about stock shortages or limited supply.
+* **Better quality control:** Online retailers have
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+
+I enjoy browsing and discovering new products in physical stores. I appreciate the tactile experience of trying on clothes and seeing the physical layout of a space. However, I also value the convenience and speed of online shopping. I can find what I'm looking for quickly and easily, and I appreciate the vast selection available.
+
+Ultimately, my preference depends on the product and the shopping experience. For certain items, like clothing or home decor, browsing in a physical store allows me to engage with the product and envision it in my own space. For other items, like electronics or software, online research and reviews are essential.
+
+I enjoy the
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 2 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (2) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 3 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for well-being, happiness or sadness?
+==INITIAL_RESPONSE==========================
+ness?
+
+While both happiness and sadness are part of life, there is a strong argument to be made that **happiness is more beneficial for overall well-being**. Here's why:
+
+**Positive effects of happiness:**
+
+* **Physical health:** Happiness boosts the immune system, reduces stress hormones, and promotes better sleep.
+* **Mental health:** It reduces symptoms of depression, anxiety, and other mental health conditions.
+* **Social health:** Happy individuals are more likely to be engaged in relationships and contribute to their communities.
+* **Cognitive function:** Happiness can enhance memory, focus, and problem-solving skills.
+* **
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+While both happiness and sadness are part of life, there is a clear distinction between the two. While happiness is a temporary state of euphoria caused by the release of hormones such as dopamine and serotonin, sadness is a prolonged state of emotional distress caused by the release of hormones such as cortisol and norepinephrine.
+
+Therefore, while both happiness and sadness are important for overall well-being, **sadness is a much more significant risk factor for health problems such as cardiovascular disease, stroke, depression, and other chronic diseases than happiness**.
+
+It is important to note that even though sadness is a more significant risk factor for health problems, it is
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+
+The question is subjective and depends on individual perspectives and priorities. Both happiness and sadness offer unique and valuable experiences for well-being.
+
+**Happiness:**
+
+* Promotes a sense of joy, fulfillment, and contentment.
+* Enhances cognitive function, creativity, and problem-solving abilities.
+* Can foster social connections and provide a sense of belonging.
+* Can be fleeting and require intentional pursuit.
+
+**Sadness:**
+
+* Can evoke a range of emotions, including empathy, compassion, and catharsis.
+* Can promote self-reflection and growth.
+* Can foster resilience and adaptability.
+* Can provide a
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 3 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (3) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 4 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: silence or soft background music?
+==INITIAL_RESPONSE==========================
+usic?
+
+While both silence and soft background music can be relaxing, **soft background music is generally considered to be more relaxing than silence**. This is because the music provides a sense of movement and rhythm, which can help to mask the feeling of emptiness and boredom that can come with silence. Additionally, the music can help to create a sense of atmosphere and mood, which can further enhance the relaxing effect.
+
+Of course, the most relaxing music is ultimately subjective and depends on the individual's taste. However, in general, soft background music is considered to be more relaxing than silence.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+While both silence and soft background music can be relaxing, **soft background music is generally considered to be more relaxing than silence**. This is because it provides a more soothing and calming effect on the brain.
+
+Here are some of the reasons why soft background music is more relaxing than silence:
+
+* **It reduces stress and anxiety.** When we hear soft background music, it helps to slow down our heart rate, lower our blood pressure, and reduce cortisol levels, the stress hormone.
+* **It improves sleep.** Soft background music can help to improve sleep by reducing anxiety and promoting relaxation.
+* **It reduces pain perception.** Soft
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+
+While both silence and soft background music can be incredibly relaxing, the preference for one over the other can depend on individual preferences and the desired atmosphere.
+
+**Silence**
+
+* **Pros:**
+    * Complete solitude and immersion
+    * Allows for deep thought, reflection, and self-discovery
+    * Can be meditative and therapeutic
+
+* **Cons:**
+    * Can be isolating for some
+    * May lack stimulation and engagement
+
+**Soft Background Music**
+
+* **Pros:**
+    * Enhances focus and concentration
+    * Creates a sense of atmosphere and mood
+    * Can be calming and soothing
+
+*
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 4 SAME_BAD 1 BAD (0)
+Neutral Steering Results: GOOD (4) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 5 BAD (0) VERY BAD (0)
+
