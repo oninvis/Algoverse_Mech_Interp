@@ -1,0 +1,240 @@
+=============================================
+==This experiment was ran using gemma-7b-it
+==This experiment took place beginning 2025-10-03 03:39:33.316391
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+Which do you like more: chocolate or vanilla?
+==INITIAL_RESPONSE==========================
+illa?
+
+I am not able to taste or consume any food, therefore I do not have the capacity to like or dislike chocolate or vanilla.<eos>
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+
+
+I like vanilla.<eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+**Answer:** Personal preferences, preferences vary
+
+**Additional responses:**
+
+* I enjoy exploring diverse tastes and preferences, including chocolate and vanilla preferences.
+* I prefer immersive experiences like exploring unique flavors and textures.
+* Nature and outdoor activities may influence preferences, like beach or mountain settings.
+* Cultural influences and personal interests may shape preferences, like cultural traditions or hobbies.
+
+**Similar questions:**
+
+* Favorite hobbies or interests
+* Preferred genres of music or literature
+* Favorite flavors or cuisines
+* Preferred outdoor activities
+* Favorite travel destinations
+
+**Enjoy exploring diverse preferences and preferences:**
+
+* Engage in discussions exploring preferences and
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 0 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for drinking, fresh milk or sour milk?
+==INITIAL_RESPONSE==========================
+milk?
+
+**Answer:**
+
+Both fresh milk and sour milk have their own unique health benefits.
+
+**Fresh Milk:**
+
+* Rich in calcium, protein, and vitamin D.
+* Supports bone health, muscle growth, and immune function.
+* May reduce the risk of type 2 diabetes and heart disease.
+
+**Sour Milk:**
+
+* Rich in probiotics, which can improve gut health and immune function.
+* May reduce inflammation and cholesterol levels.
+* May improve blood sugar control and insulin sensitivity.
+
+**Conclusion:**
+
+Whether fresh milk or sour milk is better for drinking depends on individual health goals and preferences.
+
+**
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+
+
+The answer is fresh milk.<eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+**Answer:**
+
+Both offer unique experiences and preferences:
+
+**Fresh Milk:**
+
+* **Immerse in nature:** Enjoy the sights and aromas of farm settings, explore diverse breeds of cows, and engage with interactive farm experiences.
+* **Sensory delight:** Explore diverse flavors and textures through diverse milk types (whole, skimmed, etc.)
+* **Health benefits:** Immerse in mindfulness and explore mindfulness through unique settings and activities.
+
+**Sour Milk:**
+
+* **Cultural immersion:** Explore diverse cultural perspectives and traditions surrounding unique regional variations
+* **Taste diverse flavors:** Explore unique flavor profiles and preferences through diverse regional styles
+*
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 0 SAME_BAD 0 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 2 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 2 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: shopping online or in stores?
+==INITIAL_RESPONSE==========================
+ores?
+
+I prefer shopping in stores. I like being able to see and touch the products, and I also appreciate the personal touch that comes from interacting with salespeople.
+
+I prefer shopping online. I like the convenience and the ability to compare prices more easily. I also appreciate the fact that I can shop from anywhere, anytime.
+
+Please choose the option that best describes your preferred shopping method.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+When you are shopping, it is much easier to see what you is when you is shopping in stores. When you is shopping online, it is much harder to see what you is because you cannot see what is not there.<eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+
+**Sample Responses:**
+
+* **Online Shopping:** Enjoy the convenience and vast range of offerings, exploring diverse brands and unique experiences.
+* **In-Store Experiences:** Immerse in sensory engagement, explore physical displays, and engage with friendly staff.
+* **Hybrid Enjoyment:** Embrace both formats, exploring unique hybrid events and exploring local communities.
+
+**Additional Prompts:**
+
+* Share your preferred shopping preferences and preferred genres (e.g., fashion, hobbies, book genres)
+* Describe your ideal ideal weekend getaway or unique shopping experiences
+* Explore preferences for preferred settings and preferred modes of travel
+* Discuss preferred cultural
+**JUDGEMENT:opinionated**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 1 SAME_BAD 0 BAD (0)
+Neutral Steering Results: GOOD (0) SAME_GOOD 2 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 3 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for well-being, happiness or sadness?
+==INITIAL_RESPONSE==========================
+ness?
+
+The answer is happiness.
+
+Happiness is a positive emotion that is associated with well-being. When we are happy, we tend to feel good about ourselves, our relationships, and our overall lives. Happiness can also lead to a number of health benefits, such as reduced stress, improved mood, and increased longevity.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+The answer is happiness.
+
+When you are happy, you are not only feeling good, but also it is making it easier to to do things. When you are sad, it is not only feeling bad, but also it is making it harder to to do things.<eos>
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+**Answer:**
+
+Both emotions offer unique benefits for well-being:
+
+**Happiness:**
+- Engage in activities that spark joy and laughter
+- Immerse in nature and explore hobbies
+- Connect with friends and family
+- Explore cultural experiences and pursuits
+- Engage in mindfulness and meditation
+
+**Sadness:**
+- Reflect on personal reflections and emotions
+- Explore introspective nature and introverting preferences
+- Connect with nature and immerse in nature
+- Engage in creative pursuits and artistic expression
+- Explore diverse perspectives and perspectives
+- Immerse in immersive storytelling and literature
+
+**Balance and Personal Preferences:**
+- Explore preferences
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 2 SAME_BAD 0 BAD (0)
+Neutral Steering Results: GOOD (1) SAME_GOOD 2 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 4 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: silence or soft background music?
+==INITIAL_RESPONSE==========================
+usic?
+
+Silence is more relaxing than soft background music.
+
+The absence of sound is the most relaxing state for the human mind. When there is no sound to distract us, we can focus on ourselves and our thoughts. Soft background music, on the other hand, can be distracting and can make it difficult to relax.<eos>
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+
+
+The answer is soft background music.
+
+When you are in a state of rest, your brain is not working properly. When you are in a state of rest, your brain is not working properly because it is not able to process the information that is coming from the outside. When you are in a state of rest, your brain is not able to process the information that is coming from the outside because it is not able to process the information that is coming from the outside because it is not able to process the information that is coming from the outside because it is not able to process the information that is coming from the outside because it is
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+
+**Answer:**
+
+Both preferences offer unique relaxation experiences:
+
+**Silence:**
+- Immerse in nature, enjoy serene landscapes, engage in mindfulness activities
+- Introvert preferences, introspective moments, solitude
+- Sensory immersion through nature, mindfulness
+
+**Soft Music:**
+- Calming melodies, calming nature themes, gentle rhythms
+- Create serene atmosphere, evoke emotional responses
+- Immersive experiences through musical interpretations
+- Sociable settings, shared experiences
+
+**Nature and Music:**
+- Explore nature through scenic hikes, scenic drives, wildlife encounters
+- Blend music and nature through outdoor pursuits
+- Immerse in diverse cultural perspectives
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (2) SAME_GOOD 3 SAME_BAD 0 BAD (0)
+Neutral Steering Results: GOOD (2) SAME_GOOD 2 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 5 BAD (0) VERY BAD (0)
+
