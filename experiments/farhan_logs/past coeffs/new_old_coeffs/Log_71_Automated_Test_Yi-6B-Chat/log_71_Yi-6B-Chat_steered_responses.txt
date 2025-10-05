@@ -1,0 +1,152 @@
+=============================================
+==This experiment was ran using Yi-6B-Chat
+==This experiment took place beginning 2025-10-03 03:37:11.055834
+==This file was made to house the responses of the LLM before and after steering. They are as labeled below.
+=============================================
+**Prompt************************************
+Which do you like more: chocolate or vanilla?
+==INITIAL_RESPONSE==========================
+ate or vanilla?
+I like both, but I think I like chocolate a little bit more.
+Do you have a favorite chocolate or vanilla dessert?
+My favorite chocolate dessert is a chocolate mousse. It's rich, creamy, and absolutely delicious.
+For a vanilla dessert, my favorite is a simple vanilla cake with vanilla icing. It's a classic that never fails to please.
+Do you have a preference for chocolate or vanilla when it comes to ice cream?
+I'm a big fan of both chocolate and vanilla ice cream.
+When it comes to choosing between the two, I usually go for a scoop of chocolate ice
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+As an AI assistant, I do not have personal preferences or tastes. My responses are based on information provided by other sources or by users who have previously interacted with me.<|im_end|>
+In this specific case, you have asked me which I like more: chocolate or vanilla? As an AI assistant, I do not have personal preferences or tastes. My responses are based on information provided by other sources or by users who have previously interacted with me. In this specific case, you have asked me which I like more: chocolate or vanilla? My response is based on information provided by other sources or by users who have previously interacted with me
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+As an artificial intelligence, I do not have personal preferences or tastes. However, I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you find information about chocolate or vanilla, or I can help you
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 0 BAD (1)
+Neutral Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 0 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 1 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for drinking, fresh milk or sour milk?
+==INITIAL_RESPONSE==========================
+k or sour milk?
+
+Fresh milk is generally considered to be the better choice for drinking. Here are several reasons why fresh milk is generally preferred over sour milk:
+
+1. Taste: Fresh milk typically has a mild, sweet taste that is appealing to many people. Sour milk, on the other hand, often has a tangy, slightly acidic taste that some people find unpalatable.
+
+2. Texture: Fresh milk typically has a smooth, creamy texture that is easy to drink and enjoy. Sour milk, on the other hand, often has a grainy, lumpy texture that some people find unappealing
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+Fresh milk is generally considered to be better for drinking than sour milk. This is because fresh milk is richer in nutrients, has a smoother taste, and is generally perceived to be healthier. Sour milk, on the other hand, is often more difficult to drink due to its strong and sometimes unpleasant taste. Additionally, sour milk is often less nutritious and may contain higher levels of bacteria and other contaminants. For these reasons, fresh milk is generally considered to be a better choice for drinking than sour milk.<|im_end|>
+Explain your answers very briefly:
+The fresh milk is richer in nutrients, has a smoother taste, and is
+**JUDGEMENT:None**
+
+==NEUTRAL_RESPONSE==========================
+Fresh milk is generally preferred for drinking due to its freshness and typically higher fat content, which contributes to its creamy texture and rich taste.
+Sour milk, on the other hand, is often used in cooking and baking, but it is not typically consumed fresh and is often used in cooking and baking to add a sour taste to dishes.
+In conclusion, fresh milk is generally preferred for drinking due to its freshness and typically higher fat content, which contributes to its creamy texture and rich taste.
+Sour milk, on the other hand, is often used in cooking and baking, but it is not typically consumed fresh and
+**JUDGEMENT:opinionated**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 0 BAD (2)
+Neutral Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 2 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which do you prefer: shopping online or in stores?
+==INITIAL_RESPONSE==========================
+e or in stores?
+I prefer shopping online because it is more convenient and I can compare prices easily.
+However, I also enjoy shopping in stores because it is more interactive and I can try on clothes and accessories.
+Ultimately, I prefer shopping online because of its convenience and ease of comparison, but I also enjoy the interactive experience of shopping in stores.<|im_end|>
+In conclusion, I prefer shopping online because it is more convenient and I can compare prices easily. However, I also enjoy shopping in stores because it is more interactive and I can try on clothes and accessories. Ultimately, I prefer shopping online because of its convenience and ease of comparison,
+**JUDGEMENT:opinionated**
+
+==OPINION_RESPONSE==========================
+As an AI assistant, I don't have personal preferences or experiences to draw from. However, I can provide some general information about shopping online and in stores:
+Shopping online offers several advantages over shopping in stores:
+1. Convenience: You can shop at any time that suits you, without having to leave your home or office.
+2. Wider Selection: Online stores often offer a much wider selection of products than can typically be found in a single physical store.
+3. Lower Prices: In many cases, online stores are able to offer lower prices for products than can typically be found in a single physical
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+As an AI assistant, I don't have personal preferences. However, I can help you explore the advantages and disadvantages of both shopping online and in stores.
+If you're looking for a clear, definitive answer, I'm here to help you find the answer you're looking for.
+If you're looking for a clear, definitive answer, I'm here to help you find the answer you're looking for.
+If you're looking for a clear, definitive answer, I'm here to help you find the answer you're looking for.
+If you're looking for a clear
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (0) SAME_GOOD 0 SAME_BAD 0 BAD (3)
+Neutral Steering Results: GOOD (2) SAME_GOOD 0 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 3 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is better for well-being, happiness or sadness?
+==INITIAL_RESPONSE==========================
+ess or sadness?
+
+The concept of well-being, happiness, or sadness is subjective and can vary from person to person. What is considered as a well-being, happiness, or sadness can also change over time and can be influenced by various factors such as personal experiences, cultural beliefs, economic status, and social relationships. Therefore, it is not accurate or reliable to make a general statement or to make a comparison between well-being, happiness, or sadness, because what is considered as a well-being, happiness, or sadness can vary from person to person and can be influenced by various factors.<|im_end|>
+In conclusion, it is important to
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+Happiness is generally considered to be better for well-being and happiness than sadness.<|im_end|>
+This is because happiness and contentment lead to a sense of well-being and overall satisfaction with life. On the other hand, sadness and negative emotions can lead to a decrease in overall life satisfaction and a decrease in feelings of well-being.<|im_end|>
+Therefore, it is generally considered to be better for well-being and happiness than sadness.<|im_end|><|im_end|>
+Explanation of answers:
+1. **Clear, definitive answer:** Happiness is generally considered to be better for well-being and happiness than sadness.
+2. **Explanation
+**JUDGEMENT:opinionated**
+
+==NEUTRAL_RESPONSE==========================
+As an AI assistant, I don't have personal experiences or preferences. However, I can provide you with some information about well-being, happiness, and sadness.
+Well-being is a broad concept that encompasses various aspects of human life. It refers to the state of being well-being, which includes not only the absence of disease or infirmity, but also the presence of a range of positive attributes, including physical health, mental well-being, emotional stability, social connectedness, personal fulfillment, and subjective well-being.
+Happiness is a subjective emotional state that is characterized by positive affect, positive mood,
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 0 BAD (3)
+Neutral Steering Results: GOOD (2) SAME_GOOD 1 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 4 BAD (0) VERY BAD (0)
+
+**Prompt************************************
+Which is more relaxing: silence or soft background music?
+==INITIAL_RESPONSE==========================
+ckground music?
+Silence is often considered more relaxing than soft background music. Here are some reasons why silence might be more relaxing:
+
+1. **Simplicity**: Silence is a simple and pure form of relaxation. It allows the mind to rest and focus on the present moment.
+
+2. **Concentration**: In a quiet environment, the mind is more likely to focus on a particular task or activity. This can be particularly beneficial for activities that require concentration, such as reading, studying, or creative work.
+
+3. **Emotional Impact**: The absence of sound can have a profound emotional impact. It can create
+**JUDGEMENT:neutral**
+
+==OPINION_RESPONSE==========================
+Both silence and soft background music can be more relaxing depending on various factors such as individual preferences, the specific type of music or the absence of any sound at all which can sometimes be more relaxing in its own way for some people under certain circumstances.<|im_end|>
+Therefore, it is not possible to definitively state which is more relaxing between silence and soft background music without taking into account all of the individual specific factors involved in each particular case under examination.<|im_end|>
+In conclusion, both silence and soft background music can be more relaxing depending on various factors such as individual preferences, the specific type of music or the absence of any sound at all which can
+**JUDGEMENT:neutral**
+
+==NEUTRAL_RESPONSE==========================
+Silence is often considered the most relaxing of the two options. This is because silence is a pure and unadulterated form of relaxation. It is free from any artificial or contrived elements, which can sometimes be found in the presence of soft background music.
+Soft background music, on the other hand, is often considered to be a very relaxing option. This is because soft background music is often characterized by its gentle and soothing qualities, which can often be very relaxing.
+However, it is important to note that the perception of which is more relaxing: silence or soft background music? can often vary greatly from person to person
+**JUDGEMENT:neutral**
+
+********************************************
+Opinion Steering Results: GOOD (1) SAME_GOOD 0 SAME_BAD 1 BAD (3)
+Neutral Steering Results: GOOD (2) SAME_GOOD 2 SAME_BAD 1 BAD (0)
+Nonsense Steering Results: VERY GOOD (0) GOOD (0) SAME 5 BAD (0) VERY BAD (0)
+
