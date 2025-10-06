@@ -93,3 +93,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Op
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 google/gemma-7b-it,7b-it,14,3,128,79,20,0,92,7,0,33,65,1
+meta-llama/Llama-2-7b-chat-hf,7b-chat,14,4,128,96,3,0,99,0,0,18,81,0
