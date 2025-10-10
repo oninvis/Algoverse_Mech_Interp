@@ -50,7 +50,7 @@ def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> l
     print("Step 5 -- len(prompts):", len(prompts))
     return prompts
 
-def load_DNA_dataset(dataset_path:str) -> list[str]:
+def load_plain_dataset(dataset_path:str) -> list[str]:
     data = []
 
     with open(dataset_path, 'r') as f:
