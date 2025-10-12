@@ -12,3 +12,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Op
 meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4,4),128,farhan_logs/Log_126_Automated_Test_Llama-2-7b-chat-hf//log_126_Llama-2-7b-chat-hf,11,89,0,23,77,0,11,89,0
 Model name,Model Size,Layer,Coeff,Max Tokens,Log Path,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(10:10),128,farhan_logs/Log_127_Automated_Test_Llama-2-13b-chat-hf//log_127_Llama-2-13b-chat-hf,4,96,0,80,20,0,82,18,0
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,-1,(11:12),128,farhan_logs/Log_128_Automated_Test_Meta-Llama-3-8B-Instruct//log_128_Meta-Llama-3-8B-Instruct,34,66,0,61,35,4,27,73,0
