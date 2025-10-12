@@ -11,3 +11,4 @@ google/gemma-7b-it,7b-it,-1,(3,5),128,farhan_logs/Log_125_Automated_Test_gemma-7
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4,4),128,farhan_logs/Log_126_Automated_Test_Llama-2-7b-chat-hf//log_126_Llama-2-7b-chat-hf,11,89,0,23,77,0,11,89,0
 Model name,Model Size,Layer,Coeff,Max Tokens,Log Path,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(10:10),128,farhan_logs/Log_127_Automated_Test_Llama-2-13b-chat-hf//log_127_Llama-2-13b-chat-hf,4,96,0,80,20,0,82,18,0
