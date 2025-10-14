@@ -5,3 +5,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Op
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(12,12),128,farhan_logs/Log_160_Automated_Test_Qwen1.5-1.8B-Chat//log_160_Qwen1.5-1.8B-Chat,94,6,0,86,14,0,50,50,0
 Model name,Model Size,Layer,Coeff,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(11,12),128,farhan_logs/Log_162_Automated_Test_Qwen1.5-7B-Chat//log_162_Qwen1.5-7B-Chat,47,53,0,86,14,0,17,80,3
+Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(11,11),128,farhan_logs/Log_163_Automated_Test_Qwen1.5-14B-Chat//log_163_Qwen1.5-14B-Chat,35,65,0,57,42,1,22,78,0
