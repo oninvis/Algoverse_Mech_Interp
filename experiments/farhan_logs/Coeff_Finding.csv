@@ -79,3 +79,5 @@ Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(12:12),128,farhan_logs/Log_153_Coeff_Finding_
 Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(13:13),128,farhan_logs/Log_153_Coeff_Finding_Qwen1.5-14B-Chat//log_153_Qwen1.5-14B-Chat(13),15,5,0,20,0,0,6,14,0
 Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(14:14),128,farhan_logs/Log_153_Coeff_Finding_Qwen1.5-14B-Chat//log_153_Qwen1.5-14B-Chat(14),15,5,0,20,0,0,4,16,0
 Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(15:15),128,farhan_logs/Log_153_Coeff_Finding_Qwen1.5-14B-Chat//log_153_Qwen1.5-14B-Chat(15),15,5,0,20,0,0,3,17,0
+Model name,Model Size,Layer,Coeff,Max Tokens,File Path,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+google/gemma-2b-it,2b-it,-1,(0:0),128,farhan_logs/Log_155_Coeff_Finding_gemma-2b-it//log_155_gemma-2b-it(0),11,9,0,0,0,20,0,0,20
