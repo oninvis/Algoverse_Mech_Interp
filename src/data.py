@@ -1,6 +1,21 @@
 import json
 import csv
 
+def load_crows_pairs(dataset_path: str):
+    data = []
+    # Open the CSV file
+    with open(dataset_path, 'r', newline='') as csvfile:
+        # Create a reader object
+        reader = csv.reader(csvfile)
+
+        # # If your CSV has a header, you can skip it
+        # header = next(reader)
+        # print(f"Header: {header}")
+
+        # Iterate through each row in the CSV
+        data += row
+    return data
+
 def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> list[str]:
     templates = []
     nouns = []
