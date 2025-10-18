@@ -5,3 +5,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,File Path,Init->Opin,Init->Neut,Ini
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(4.5:4.5),128,farhan_logs/Log_210_Refusal_To_Opinion_Qwen1.5-1.8B-Chat//log_210_Qwen1.5-1.8B-Chat,13,85,1,43,56,0,43,56,0
 01-ai/Yi-6B-Chat,6B-Chat,-1,(1:1),128,farhan_logs/Log_211_Refusal_To_Opinion_Yi-6B-Chat//log_211_Yi-6B-Chat,7,92,0,3,94,2,5,94,0
 google/gemma-2b-it,2b-it,-1,(1:1),128,farhan_logs/Log_212_Refusal_To_Opinion_gemma-2b-it//log_212_gemma-2b-it,13,86,0,14,85,0,11,88,0
+meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(1:1),128,farhan_logs/Log_213_Refusal_To_Opinion_Llama-2-7b-chat-hf//log_213_Llama-2-7b-chat-hf,1,98,0,27,72,0,21,78,0
