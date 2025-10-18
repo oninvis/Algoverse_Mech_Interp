@@ -10,3 +10,4 @@ Model name,Model Size,Layer,Coeff,Max Tokens,File Path,Init->Opin,Init->Neut,Ini
 Model name,Model Size,Layer,Coeff,Max Tokens,File Path,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(4.5:4.5),128,farhan_logs/Log_156_Automated_Test_Qwen1.5-1.8B-Chat//log_156_Qwen1.5-1.8B-Chat,40,57,3,93,5,2,91,8,1
 01-ai/Yi-6B-Chat,6B-Chat,-1,(1:1),128,farhan_logs/Log_157_Automated_Test_Yi-6B-Chat//log_157_Yi-6B-Chat,18,79,3,16,83,1,24,74,2
+google/gemma-2b-it,2b-it,-1,(1:1),128,farhan_logs/Log_158_Automated_Test_gemma-2b-it//log_158_gemma-2b-it,11,89,0,11,89,0,12,88,0
