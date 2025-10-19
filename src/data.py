@@ -1,6 +1,7 @@
 import json
 import csv
 
+
 def load_crows_pairs(dataset_path: str):
     data = []
     # Open the CSV file
@@ -13,7 +14,8 @@ def load_crows_pairs(dataset_path: str):
         # print(f"Header: {header}")
 
         # Iterate through each row in the CSV
-        data += row
+        for row in reader:
+            data += row
     return data
 
 def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> list[str]:
