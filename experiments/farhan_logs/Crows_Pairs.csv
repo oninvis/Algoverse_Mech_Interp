@@ -7,3 +7,4 @@ google/gemma-2b-it,2b-it,-1,(5:9),128,farhan_logs/Log_224_Crows_Pairs_gemma-2b-i
 Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 google/gemma-7b-it,7b-it,-1,(5.5:5),128,farhan_logs/Log_226_Crows_Pairs_gemma-7b-it//log_226_gemma-7b-it,48,51,1,56,44,0,34,66,0
 meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4:4),128,farhan_logs/Log_227_Crows_Pairs_Llama-2-7b-chat-hf//log_227_Llama-2-7b-chat-hf,51,49,0,54,46,0,42,58,0
+meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(10:10),128,farhan_logs/Log_228_Crows_Pairs_Llama-2-13b-chat-hf//log_228_Llama-2-13b-chat-hf,48,52,0,52,48,0,46,54,0
