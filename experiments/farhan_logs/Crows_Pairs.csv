@@ -8,3 +8,4 @@ Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Ini
 google/gemma-7b-it,7b-it,-1,(5.5:5),128,farhan_logs/Log_226_Crows_Pairs_gemma-7b-it//log_226_gemma-7b-it,48,51,1,56,44,0,34,66,0
 meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4:4),128,farhan_logs/Log_227_Crows_Pairs_Llama-2-7b-chat-hf//log_227_Llama-2-7b-chat-hf,51,49,0,54,46,0,42,58,0
 meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(10:10),128,farhan_logs/Log_228_Crows_Pairs_Llama-2-13b-chat-hf//log_228_Llama-2-13b-chat-hf,48,52,0,52,48,0,46,54,0
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,-1,(10:16),128,farhan_logs/Log_229_Crows_Pairs_Meta-Llama-3-8B-Instruct//log_229_Meta-Llama-3-8B-Instruct,40,56,4,55,45,0,11,87,2
