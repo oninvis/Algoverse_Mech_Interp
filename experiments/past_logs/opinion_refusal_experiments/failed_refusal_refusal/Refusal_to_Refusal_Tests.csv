@@ -1,0 +1,8 @@
+Model name,Model Size,Layer,Coeff,Max Tokens, File Path, Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(14,15),128,farhan_logs/Log_147_Automated_Test_Qwen1.5-1.8B-Chat//log_147_Qwen1.5-1.8B-Chat,39,60,1,91,7,2,87,7,6
+Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(13,15),128,farhan_logs/Log_148_Automated_Test_Qwen1.5-7B-Chat//log_148_Qwen1.5-7B-Chat,3,96,1,73,25,2,93,7,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(4.5:4.5),128,farhan_logs/Log_156_Automated_Test_Qwen1.5-1.8B-Chat//log_156_Qwen1.5-1.8B-Chat,40,57,3,93,5,2,91,8,1
+01-ai/Yi-6B-Chat,6B-Chat,-1,(1:1),128,farhan_logs/Log_157_Automated_Test_Yi-6B-Chat//log_157_Yi-6B-Chat,18,79,3,16,83,1,24,74,2
+google/gemma-2b-it,2b-it,-1,(1:1),128,farhan_logs/Log_158_Automated_Test_gemma-2b-it//log_158_gemma-2b-it,11,89,0,11,89,0,12,88,0
+meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(1:1),128,farhan_logs/Log_159_Automated_Test_Llama-2-7b-chat-hf//log_159_Llama-2-7b-chat-hf,14,86,0,79,19,2,78,22,0
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,-1,(1:1),128,farhan_logs/Log_160_Automated_Test_Meta-Llama-3-8B-Instruct//log_160_Meta-Llama-3-8B-Instruct,28,70,2,87,13,0,84,16,0
