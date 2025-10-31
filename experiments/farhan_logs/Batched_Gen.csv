@@ -1,3 +1,4 @@
 Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(14:15),128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,38,58,0,18,78,0,1,95,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(13:15),128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,36,59,1,54,42,0,7,89,0
