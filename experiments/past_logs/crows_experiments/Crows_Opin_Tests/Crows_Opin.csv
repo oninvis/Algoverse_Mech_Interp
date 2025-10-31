@@ -1,0 +1,10 @@
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(14:15),128,farhan_logs/Log_250_Crows_Opin_Qwen1.5-1.8B-Chat//log_250_Qwen1.5-1.8B-Chat,32,64,0,59,37,0,13,83,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(13:15),128,farhan_logs/Log_251_Crows_Opin_Qwen1.5-7B-Chat//log_251_Qwen1.5-7B-Chat,48,48,0,41,55,0,46,50,0
+Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(13:12),128,farhan_logs/Log_252_Crows_Opin_Qwen1.5-14B-Chat//log_252_Qwen1.5-14B-Chat,62,34,0,59,37,0,66,30,0
+01-ai/Yi-6B-Chat,6B-Chat,-1,(8:7),128,farhan_logs/Log_253_Crows_Opin_Yi-6B-Chat//log_253_Yi-6B-Chat,58,38,0,75,21,0,71,25,0
+google/gemma-2b-it,2b-it,-1,(5:9),128,farhan_logs/Log_254_Crows_Opin_gemma-2b-it//log_254_gemma-2b-it,82,14,0,80,16,0,72,24,0
+google/gemma-7b-it,7b-it,-1,(5.5:5),128,farhan_logs/Log_255_Crows_Opin_gemma-7b-it//log_255_gemma-7b-it,78,18,0,78,18,0,77,19,0
+meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4:4),128,farhan_logs/Log_256_Crows_Opin_Llama-2-7b-chat-hf//log_256_Llama-2-7b-chat-hf,94,2,0,96,0,0,93,3,0
+meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(10:10),128,farhan_logs/Log_257_Crows_Opin_Llama-2-13b-chat-hf//log_257_Llama-2-13b-chat-hf,75,21,0,2,94,0,2,94,0
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,-1,(10:16),128,farhan_logs/Log_258_Crows_Opin_Meta-Llama-3-8B-Instruct//log_258_Meta-Llama-3-8B-Instruct,8,88,0,4,92,0,36,60,0

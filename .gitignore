@@ -4,6 +4,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.resids
 
 # C extensions
 *.so
@@ -203,3 +204,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+experiments/farhan_logs/Log_11/log_11_Meta-Llama-3-8B-Instruct_residuals.pkl
