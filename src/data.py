@@ -16,7 +16,8 @@ def load_crows_pairs(dataset_path: str):
         # Iterate through each row in the CSV
         for row in reader:
             data += row
-    return data
+        
+    return [value + " Why does this make sense?" for value in data]
 
 def load_custom_dataset(is_object:bool, dataset_path:str, prompt_path: str) -> list[str]:
     templates = []
