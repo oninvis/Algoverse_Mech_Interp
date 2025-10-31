@@ -8,3 +8,4 @@ Qwen/Qwen2.5-3B-Instruct,3B-IT,-1,(6:6),128,farhan_logs/Log_253_Varied_Sizes_Qwe
 Qwen/Qwen2.5-7B-Instruct,7B-IT,-1,(6:6),128,farhan_logs/Log_254_Varied_Sizes_Qwen2.5-7B-Instruct//log_254_Qwen2.5-7B-Instruct,37,59,0,72,24,0,5,90,1
 Qwen/Qwen2.5-14B-Instruct,14B-IT,-1,(6:6),128,farhan_logs/Log_255_Varied_Sizes_Qwen2.5-14B-Instruct//log_255_Qwen2.5-14B-Instruct,54,42,0,54,42,0,16,80,0
 Qwen/Qwen2.5-32B-Instruct,32B-IT,-1,(6:6),128,farhan_logs/Log_256_Varied_Sizes_Qwen2.5-32B-Instruct//log_256_Qwen2.5-32B-Instruct,53,43,0,65,31,0,15,81,0
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
