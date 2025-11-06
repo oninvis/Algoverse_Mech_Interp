@@ -2,6 +2,8 @@
 
 This is a project as part of Algoverse, Summer 2025.
 
+Completed logs from experiments can be found in experiments/past_logs
+Experimentation can be found in experiments/farhan_experimentation.ipynb or experiments/aryaman_experimentation.ipynb. 
 
 ## Directory structure
 
