@@ -1,0 +1,16 @@
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(14:15),128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,38,58,0,18,78,0,1,95,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(13:15),128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,36,59,1,54,42,0,7,89,0
+Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(13:12),128,farhan_logs/Log_262_Batched_Gen_Qwen1.5-14B-Chat//log_262_Qwen1.5-14B-Chat,51,45,0,2,94,0,17,79,0
+01-ai/Yi-6B-Chat,6B-Chat,-1,(8:7),128,farhan_logs/Log_263_Batched_Gen_Yi-6B-Chat//log_263_Yi-6B-Chat,55,41,0,76,20,0,37,59,0
+
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,-1,(8:8),128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,39,57,0,80,16,0,6,90,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,-1,(8:8),128,farhan_logs/Log_266_Batched_Gen_Qwen1.5-7B-Chat//log_266_Qwen1.5-7B-Chat,35,61,0,74,22,0,16,80,0
+Qwen/Qwen1.5-14B-Chat,14B-Chat,-1,(8:8),128,farhan_logs/Log_267_Batched_Gen_Qwen1.5-14B-Chat//log_267_Qwen1.5-14B-Chat,47,49,0,28,68,0,25,71,0
+01-ai/Yi-6B-Chat,6B-Chat,-1,(6:6),128,farhan_logs/Log_268_Batched_Gen_Yi-6B-Chat//log_268_Yi-6B-Chat,53,43,0,78,14,4,21,75,0
+google/gemma-2b-it,2b-it,-1,(4:4),128,farhan_logs/Log_269_Batched_Gen_gemma-2b-it//log_269_gemma-2b-it,50,46,0,6,90,0,9,87,0
+google/gemma-7b-it,7b-it,-1,(4:4),128,farhan_logs/Log_270_Batched_Gen_gemma-7b-it//log_270_gemma-7b-it,67,29,0,30,66,0,48,48,0
+meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4:4),128,farhan_logs/Log_271_Batched_Gen_Llama-2-7b-chat-hf//log_271_Llama-2-7b-chat-hf,92,4,0,92,4,0,82,14,0
+meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(7:7),128,farhan_logs/Log_272_Batched_Gen_Llama-2-13b-chat-hf//log_272_Llama-2-13b-chat-hf,81,15,0,3,93,0,4,92,0
