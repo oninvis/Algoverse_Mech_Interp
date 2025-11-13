@@ -8,3 +8,5 @@ google/gemma-2b-it,2b-it,-1,(5:6),128,farhan_logs/Log_266_Combined_Data_gemma-2b
 google/gemma-7b-it,7b-it,-1,(5.5:6),128,farhan_logs/Log_267_Combined_Data_gemma-7b-it//log_267_gemma-7b-it,141,51,0,63,129,0,130,62,0
 meta-llama/Llama-2-7b-chat-hf,7b-chat,-1,(4:4),128,farhan_logs/Log_268_Combined_Data_Llama-2-7b-chat-hf//log_268_Llama-2-7b-chat-hf,21,171,0,2,190,0,4,188,0
 meta-llama/Llama-2-13b-chat-hf,13b-chat,-1,(6:6),128,farhan_logs/Log_269_Combined_Data_Llama-2-13b-chat-hf//log_269_Llama-2-13b-chat-hf,20,172,0,18,174,0,1,191,0
+Model name,Model Size,Layer,Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+meta-llama/Meta-Llama-3-8B-Instruct,8B-Instruct,-1,(6:6),128,farhan_logs/Log_271_Combined_Data_Meta-Llama-3-8B-Instruct//log_271_Meta-Llama-3-8B-Instruct,28,164,0,129,63,0,19,173,0
