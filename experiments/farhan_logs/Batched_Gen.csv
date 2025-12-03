@@ -27,3 +27,61 @@ Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,2,2,128,farhan_logs/Log_254_Batched_Gen_Qwen1.5
 Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,2,2,128,farhan_logs/Log_254_Batched_Gen_Qwen1.5-1.8B-Chat//log_254_Qwen1.5-1.8B-Chat,32,64,0,49,47,0,16,80,0
 Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
 Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_258_Batched_Gen_Qwen1.5-1.8B-Chat//log_258_Qwen1.5-1.8B-Chat,14,18,0,14,18,0,11,20,1
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,1,1,128,farhan_logs/Log_258_Batched_Gen_Qwen1.5-1.8B-Chat//log_258_Qwen1.5-1.8B-Chat,14,18,0,12,20,0,10,22,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,2,2,128,farhan_logs/Log_258_Batched_Gen_Qwen1.5-1.8B-Chat//log_258_Qwen1.5-1.8B-Chat,14,18,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,2,0,128,farhan_logs/Log_258_Batched_Gen_Qwen1.5-1.8B-Chat//log_258_Qwen1.5-1.8B-Chat,31,65,0,32,64,0,1,95,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,0,0,128,farhan_logs/Log_259_Batched_Gen_Qwen1.5-7B-Chat//log_259_Qwen1.5-7B-Chat,21,11,0,21,11,0,20,12,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,1,1,128,farhan_logs/Log_259_Batched_Gen_Qwen1.5-7B-Chat//log_259_Qwen1.5-7B-Chat,21,11,0,20,12,0,20,12,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,2,2,128,farhan_logs/Log_259_Batched_Gen_Qwen1.5-7B-Chat//log_259_Qwen1.5-7B-Chat,21,11,0,19,13,0,20,12,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,11,21,0,11,21,0,13,19,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,11,21,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,11,21,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,15,15,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,11,21,0,0,31,1,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,20,20,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,11,21,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,0,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,32,63,1,35,61,0,1,95,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,0,0,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,21,11,0,21,11,0,21,11,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,5,5,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,21,11,0,17,15,0,14,18,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,10,10,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,21,11,0,0,32,0,0,32,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,15,15,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,21,11,0,0,32,0,0,32,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,20,20,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,21,11,0,0,32,0,0,32,0
+Qwen/Qwen1.5-7B-Chat,7B-Chat,10,0,128,farhan_logs/Log_261_Batched_Gen_Qwen1.5-7B-Chat//log_261_Qwen1.5-7B-Chat,48,48,0,48,48,0,1,95,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,11,21,0,10,22,0,12,20,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,11,21,0,23,9,0,1,31,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,11,21,0,9,23,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,15,15,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,11,21,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,20,20,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,11,21,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,5,128,farhan_logs/Log_265_Batched_Gen_Qwen1.5-1.8B-Chat//log_265_Qwen1.5-1.8B-Chat,28,36,0,51,13,0,1,63,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_268_Batched_Gen_Qwen1.5-1.8B-Chat//log_268_Qwen1.5-1.8B-Chat,5,27,0,5,27,0,5,27,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_268_Batched_Gen_Qwen1.5-1.8B-Chat//log_268_Qwen1.5-1.8B-Chat,5,27,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_268_Batched_Gen_Qwen1.5-1.8B-Chat//log_268_Qwen1.5-1.8B-Chat,5,27,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,15,15,128,farhan_logs/Log_268_Batched_Gen_Qwen1.5-1.8B-Chat//log_268_Qwen1.5-1.8B-Chat,5,27,0,0,32,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,20,20,128,farhan_logs/Log_268_Batched_Gen_Qwen1.5-1.8B-Chat//log_268_Qwen1.5-1.8B-Chat,5,27,0,0,32,0,0,32,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_269_Batched_Gen_Qwen1.5-1.8B-Chat//log_269_Qwen1.5-1.8B-Chat,1,31,0,3,29,0,2,30,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_269_Batched_Gen_Qwen1.5-1.8B-Chat//log_269_Qwen1.5-1.8B-Chat,1,31,0,0,32,0,1,31,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_269_Batched_Gen_Qwen1.5-1.8B-Chat//log_269_Qwen1.5-1.8B-Chat,1,31,0,1,31,0,1,31,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,15,15,128,farhan_logs/Log_269_Batched_Gen_Qwen1.5-1.8B-Chat//log_269_Qwen1.5-1.8B-Chat,1,31,0,1,31,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,20,20,128,farhan_logs/Log_269_Batched_Gen_Qwen1.5-1.8B-Chat//log_269_Qwen1.5-1.8B-Chat,1,31,0,1,31,0,1,31,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_270_Batched_Gen_Qwen1.5-1.8B-Chat//log_270_Qwen1.5-1.8B-Chat,1,31,0,1,31,0,2,30,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_270_Batched_Gen_Qwen1.5-1.8B-Chat//log_270_Qwen1.5-1.8B-Chat,1,31,0,0,32,0,1,31,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_270_Batched_Gen_Qwen1.5-1.8B-Chat//log_270_Qwen1.5-1.8B-Chat,1,31,0,0,32,0,0,32,0
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Model name,Model Size,Neut Coeff,Opin Coeff,File Path,Max Tokens,Init->Opin,Init->Neut,Init->Nons,Opin->Opin,Opin->Neut,Opin->Nons,Neut->Opin,Neut->Neut,Neut->Nons
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,0,0,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,9,23,0,8,23,1,7,25,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,5,5,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,9,23,0,4,28,0,0,32,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,10,10,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,9,23,0,0,32,0,3,29,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,15,15,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,9,23,0,0,32,0,3,29,0
+Qwen/Qwen1.5-1.8B-Chat,1_8B-Chat,20,20,128,farhan_logs/Log_260_Batched_Gen_Qwen1.5-1.8B-Chat//log_260_Qwen1.5-1.8B-Chat,9,23,0,0,32,0,3,29,0
